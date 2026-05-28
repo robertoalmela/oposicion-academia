@@ -7,6 +7,17 @@ export interface Tema {
   puntos_clave: string[];
 }
 
+export interface PreguntaJSON {
+  id: string; // "preg-001"
+  enunciado: string;
+  respuestas: string[]; // ["A) ...", "B) ...", "C) ...", "D) ..."]
+  respuesta_correcta: string; // "A", "B", etc
+  tema_id: string;
+  dificultad: "basico" | "intermedio" | "avanzado";
+  tipo: "memoristica" | "comprension" | "aplicacion" | "vf" | "caso";
+  explicacion: string;
+}
+
 export interface Pregunta {
   id: number;
   tema_id: string;

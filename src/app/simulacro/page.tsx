@@ -1,35 +1,79 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { SimulacroResult } from "@/lib/types";
+import preguntasData from "@/data/preguntas.json";
+import temarioData from "@/data/temario.json";
+import { PreguntaJSON, SimulacroResult, Tema } from "@/lib/types";
 import { getProgreso, saveSimulacroResult } from "@/lib/storage";
+import { respuestaCorrectaToIndex, stripOptionPrefix } from "@/lib/questions";
 
 const PREGUNTAS_SIMULACRO = 30;
+const PREGUNTAS_POR_BLOQUE = 15;
 const TIEMPO_MINUTOS = 45;
+const PENALIZACION_ERROR = 0.33;
 
-// Preguntas placeholder para simulacro
-const PREGUNTAS_SIMULACRO_PLACEHOLDER = Array.from({ length: PREGUNTAS_SIMULACRO }, (_, i) => ({
-  id: i + 1,
-  pregunta: `Pregunta ${i + 1} del simulacro de examen. Selecciona la respuesta correcta.`,
-  opciones: [
-    "Opción A - Respuesta correcta",
-    "Opción B - Respuesta incorrecta",
-    "Opción C - Respuesta incorrecta",
-    "Opción D - Respuesta incorrecta",
-  ],
-  correcta: 0,
-}));
+const preguntas = preguntasData as PreguntaJSON[];
+const temas = temarioData as Tema[];
+const partePorTema = new Map(temas.map((tema) => [tema.id, tema.parte]));
+
+type RespuestaSimulacro = {
+  pregunta_id: number;
+  respuesta: number | null;
+  correcta: boolean;
+};
+
+function preguntaIdNumerico(id: string): number {
+  const match = id.match(/\d+/);
+  return match ? Number(match[0]) : 0;
+}
+
+function shuffle<T>(items: T[]): T[] {
+  return [...items].sort(() => Math.random() - 0.5);
+}
+
+function crearSimulacro(): PreguntaJSON[] {
+  const generales = preguntas.filter((p) => partePorTema.get(p.tema_id) === "general");
+  const especiales = preguntas.filter((p) => partePorTema.get(p.tema_id) === "especial");
+
+  const elegidas = [
+    ...shuffle(generales).slice(0, PREGUNTAS_POR_BLOQUE),
+    ...shuffle(especiales).slice(0, PREGUNTAS_POR_BLOQUE),
+  ];
+
+  if (elegidas.length < PREGUNTAS_SIMULACRO) {
+    const ids = new Set(elegidas.map((p) => p.id));
+    const restantes = preguntas.filter((p) => !ids.has(p.id));
+    elegidas.push(...shuffle(restantes).slice(0, PREGUNTAS_SIMULACRO - elegidas.length));
+  }
+
+  return shuffle(elegidas).slice(0, PREGUNTAS_SIMULACRO);
+}
+
+function formatearTiempo(segundos: number): string {
+  const m = Math.floor(segundos / 60);
+  const s = segundos % 60;
+  return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+}
+
+function formatearFecha(ts: number): string {
+  return new Date(ts).toLocaleDateString("es-ES", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
 
 export default function SimulacroPage() {
   const [mounted, setMounted] = useState(false);
   const [simulacros, setSimulacros] = useState<SimulacroResult[]>([]);
+  const [preguntasSimulacro, setPreguntasSimulacro] = useState<PreguntaJSON[]>([]);
   const [enCurso, setEnCurso] = useState(false);
   const [indice, setIndice] = useState(0);
   const [seleccion, setSeleccion] = useState<number | null>(null);
-  const [respondidas, setRespondidas] = useState<
-    { pregunta_id: number; respuesta: number | null; correcta: boolean }[]
-  >([]);
+  const [respondidas, setRespondidas] = useState<RespuestaSimulacro[]>([]);
   const [tiempoRestante, setTiempoRestante] = useState(TIEMPO_MINUTOS * 60);
   const [finalizado, setFinalizado] = useState(false);
 
@@ -53,7 +97,16 @@ export default function SimulacroPage() {
     return () => clearInterval(interval);
   }, [enCurso, finalizado, respondidas]);
 
+  const resumen = useMemo(() => {
+    const aciertos = respondidas.filter((r) => r.correcta).length;
+    const fallos = respondidas.filter((r) => !r.correcta && r.respuesta !== null).length;
+    const sinResponder = Math.max(0, preguntasSimulacro.length - respondidas.length);
+    const puntuacion = Math.max(0, aciertos - fallos * PENALIZACION_ERROR);
+    return { aciertos, fallos, sinResponder, puntuacion: Math.round(puntuacion * 100) / 100 };
+  }, [preguntasSimulacro.length, respondidas]);
+
   function iniciarSimulacro() {
+    setPreguntasSimulacro(crearSimulacro());
     setEnCurso(true);
     setIndice(0);
     setSeleccion(null);
@@ -62,13 +115,13 @@ export default function SimulacroPage() {
     setFinalizado(false);
   }
 
-  function finalizarSimulacro(respuestasFinal: typeof respondidas) {
+  function finalizarSimulacro(respuestasFinal: RespuestaSimulacro[]) {
     const aciertos = respuestasFinal.filter((r) => r.correcta).length;
     const errores = respuestasFinal.filter((r) => !r.correcta && r.respuesta !== null).length;
-    const sinResponder = PREGUNTAS_SIMULACRO - respuestasFinal.length;
-    const puntuacion = Math.max(0, aciertos - errores * 0.33);
+    const sinResponder = Math.max(0, preguntasSimulacro.length - respuestasFinal.length);
+    const puntuacion = Math.max(0, aciertos - errores * PENALIZACION_ERROR);
     const result: SimulacroResult = {
-      total: PREGUNTAS_SIMULACRO,
+      total: preguntasSimulacro.length || PREGUNTAS_SIMULACRO,
       aciertos,
       errores,
       sin_responder: sinResponder,
@@ -85,17 +138,17 @@ export default function SimulacroPage() {
 
   function handleResponder() {
     if (seleccion === null) return;
-    const pregunta = PREGUNTAS_SIMULACRO_PLACEHOLDER[indice];
-    const esCorrecta = seleccion === pregunta.correcta;
-    const nueva = {
-      pregunta_id: pregunta.id,
+    const pregunta = preguntasSimulacro[indice];
+    const correcta = respuestaCorrectaToIndex(pregunta.respuesta_correcta);
+    const nueva: RespuestaSimulacro = {
+      pregunta_id: preguntaIdNumerico(pregunta.id),
       respuesta: seleccion,
-      correcta: esCorrecta,
+      correcta: seleccion === correcta,
     };
     const nuevas = [...respondidas, nueva];
     setRespondidas(nuevas);
 
-    if (indice + 1 >= PREGUNTAS_SIMULACRO) {
+    if (indice + 1 >= preguntasSimulacro.length) {
       finalizarSimulacro(nuevas);
     } else {
       setIndice(indice + 1);
@@ -103,230 +156,112 @@ export default function SimulacroPage() {
     }
   }
 
-  function formatearTiempo(segundos: number): string {
-    const m = Math.floor(segundos / 60);
-    const s = segundos % 60;
-    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
-  }
-
-  function formatearFecha(ts: number): string {
-    return new Date(ts).toLocaleDateString("es-ES", {
-      day: "2-digit",
-      month: "2-digit",
-      year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-    });
-  }
-
   if (!mounted) {
-    return (
-      <div style={{ padding: "32px 0" }}>
-        <h1 style={{ fontSize: 28, fontWeight: 510, color: "#f7f8f8", marginBottom: 8 }}>
-          Simulacro de Examen
-        </h1>
-        <p style={{ color: "#62666d" }}>Cargando…</p>
-      </div>
-    );
+    return <div style={{ padding: "32px 0", color: "#8a8f98" }}>Cargando…</div>;
   }
 
   if (finalizado) {
-    const aciertos = respondidas.filter((r) => r.correcta).length;
-    const fallos = respondidas.filter((r) => !r.correcta && r.respuesta !== null).length;
-    const sinResponder = PREGUNTAS_SIMULACRO - respondidas.length;
-    const puntuacion = Math.max(0, aciertos - fallos * 0.33);
-    const porcentaje = Math.round((aciertos / PREGUNTAS_SIMULACRO) * 100);
+    const porcentaje = Math.round((resumen.aciertos / Math.max(1, preguntasSimulacro.length)) * 100);
 
     return (
-      <div style={{ padding: "40px 0", maxWidth: 600, margin: "0 auto" }}>
+      <div style={{ padding: "40px 0", maxWidth: 860, margin: "0 auto" }}>
         <h1 style={{ fontSize: 24, fontWeight: 510, color: "#f7f8f8", marginBottom: 24, textAlign: "center" }}>
           Resultados del Simulacro
         </h1>
 
-        <div
-          style={{
-            background: "rgba(255,255,255,0.02)",
-            border: "1px solid rgba(255,255,255,0.08)",
-            borderRadius: 8,
-            padding: 32,
-            textAlign: "center",
-            marginBottom: 24,
-          }}
-        >
+        <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 8, padding: 32, textAlign: "center", marginBottom: 24 }}>
           <div style={{ fontSize: 48, fontWeight: 510, color: porcentaje >= 70 ? "#10b981" : "#f59e0b", marginBottom: 8 }}>
             {porcentaje}%
           </div>
           <p style={{ fontSize: 15, color: "#8a8f98", marginBottom: 24 }}>
-            {aciertos} aciertos · {fallos} fallos · {sinResponder} sin responder
+            {resumen.aciertos} aciertos · {resumen.fallos} fallos · {resumen.sinResponder} sin responder
           </p>
-
-          <div style={{ display: "flex", justifyContent: "center", gap: 32 }}>
-            <div>
-              <p style={{ fontSize: 13, color: "#8a8f98" }}>Aciertos</p>
-              <p style={{ fontSize: 28, fontWeight: 510, color: "#10b981" }}>{aciertos}</p>
-            </div>
-            <div>
-              <p style={{ fontSize: 13, color: "#8a8f98" }}>Fallos</p>
-              <p style={{ fontSize: 28, fontWeight: 510, color: "#ef4444" }}>{fallos}</p>
-            </div>
-            <div>
-              <p style={{ fontSize: 13, color: "#8a8f98" }}>Puntuación</p>
-              <p style={{ fontSize: 28, fontWeight: 510, color: "#f7f8f8" }}>{Math.round(puntuacion * 100) / 100}</p>
-            </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 16 }}>
+            {[
+              ["Aciertos", resumen.aciertos, "#10b981"],
+              ["Fallos", resumen.fallos, "#ef4444"],
+              ["Sin responder", resumen.sinResponder, "#8a8f98"],
+              ["Puntuación", resumen.puntuacion, "#f7f8f8"],
+            ].map(([label, value, color]) => (
+              <div key={label as string}>
+                <p style={{ fontSize: 13, color: "#8a8f98" }}>{label}</p>
+                <p style={{ fontSize: 28, fontWeight: 510, color: color as string }}>{value}</p>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div style={{ textAlign: "center" }}>
-          <button
-            onClick={() => {
-              setFinalizado(false);
-              setRespondidas([]);
-            }}
-            style={{
-              display: "inline-block",
-              padding: "12px 24px",
-              borderRadius: 6,
-              background: "#5e6ad2",
-              color: "#f7f8f8",
-              fontSize: 14,
-              fontWeight: 510,
-              border: "none",
-              cursor: "pointer",
-              transition: "background 0.15s ease",
-            }}
-          >
+        <section style={{ display: "grid", gap: 12, marginBottom: 24 }}>
+          <h2 style={{ fontSize: 18, fontWeight: 510, color: "#f7f8f8" }}>Revisión</h2>
+          {preguntasSimulacro.map((pregunta, i) => {
+            const respuesta = respondidas.find((r) => r.pregunta_id === preguntaIdNumerico(pregunta.id));
+            const correctaIdx = respuestaCorrectaToIndex(pregunta.respuesta_correcta);
+            const marcada = respuesta?.respuesta ?? null;
+            return (
+              <article key={pregunta.id} style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 8, padding: 18 }}>
+                <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 6 }}>Pregunta {i + 1}</p>
+                <h3 style={{ fontSize: 15, fontWeight: 510, color: "#f7f8f8", marginBottom: 12 }}>{pregunta.enunciado}</h3>
+                <p style={{ fontSize: 14, color: marcada === correctaIdx ? "#10b981" : "#ef4444", marginBottom: 4 }}>
+                  Marcada: {marcada === null ? "Sin responder" : stripOptionPrefix(pregunta.respuestas[marcada])}
+                </p>
+                <p style={{ fontSize: 14, color: "#10b981", marginBottom: pregunta.explicacion ? 10 : 0 }}>
+                  Correcta: {stripOptionPrefix(pregunta.respuestas[correctaIdx])}
+                </p>
+                {pregunta.explicacion ? <p style={{ fontSize: 14, color: "#8a8f98", lineHeight: 1.6 }}>{pregunta.explicacion}</p> : null}
+              </article>
+            );
+          })}
+        </section>
+
+        <div style={{ display: "flex", justifyContent: "center", gap: 12 }}>
+          <button onClick={iniciarSimulacro} style={{ padding: "12px 24px", borderRadius: 6, background: "#5e6ad2", color: "#f7f8f8", fontSize: 14, fontWeight: 510, border: "none", cursor: "pointer" }}>
             Nuevo simulacro
           </button>
+          <Link href="/" style={{ padding: "12px 24px", borderRadius: 6, color: "#8a8f98", textDecoration: "none", border: "1px solid rgba(255,255,255,0.08)" }}>
+            Volver al inicio
+          </Link>
         </div>
       </div>
     );
   }
 
   if (enCurso) {
-    const pregunta = PREGUNTAS_SIMULACRO_PLACEHOLDER[indice];
+    const pregunta = preguntasSimulacro[indice];
     return (
       <div style={{ padding: "32px 0", maxWidth: 720, margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
           <div>
-            <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 4 }}>Simulacro de Examen</p>
+            <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 4 }}>Simulacro real · {partePorTema.get(pregunta.tema_id) === "general" ? "Parte general" : "Parte especial"}</p>
             <h1 style={{ fontSize: 20, fontWeight: 510, color: "#f7f8f8" }}>
-              Pregunta {indice + 1} de {PREGUNTAS_SIMULACRO}
+              Pregunta {indice + 1} de {preguntasSimulacro.length}
             </h1>
           </div>
-          <div
-            style={{
-              fontSize: 16,
-              fontWeight: 510,
-              color: tiempoRestante < 300 ? "#ef4444" : "#f7f8f8",
-              fontFamily: "JetBrains Mono, ui-monospace, monospace",
-              padding: "8px 14px",
-              borderRadius: 6,
-              background: "rgba(255,255,255,0.03)",
-              border: "1px solid rgba(255,255,255,0.08)",
-            }}
-          >
-            ⏱ {formatearTiempo(tiempoRestante)}
+          <div style={{ fontSize: 16, fontWeight: 510, color: tiempoRestante < 300 ? "#ef4444" : "#f7f8f8", fontFamily: "JetBrains Mono, ui-monospace, monospace", padding: "8px 14px", borderRadius: 6, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)" }}>
+            {formatearTiempo(tiempoRestante)}
           </div>
         </div>
 
-        <div
-          style={{
-            height: 4,
-            background: "rgba(255,255,255,0.05)",
-            borderRadius: 2,
-            overflow: "hidden",
-            marginBottom: 28,
-          }}
-        >
-          <div
-            style={{
-              height: "100%",
-              width: `${((indice + 1) / PREGUNTAS_SIMULACRO) * 100}%`,
-              background: "#5e6ad2",
-              borderRadius: 2,
-              transition: "width 0.3s ease",
-            }}
-          />
+        <div style={{ height: 4, background: "rgba(255,255,255,0.05)", borderRadius: 2, overflow: "hidden", marginBottom: 28 }}>
+          <div style={{ height: "100%", width: `${((indice + 1) / preguntasSimulacro.length) * 100}%`, background: "#5e6ad2", transition: "width 0.2s ease" }} />
         </div>
 
-        <div
-          style={{
-            background: "rgba(255,255,255,0.02)",
-            border: "1px solid rgba(255,255,255,0.08)",
-            borderRadius: 8,
-            padding: 24,
-            marginBottom: 20,
-          }}
-        >
-          <p style={{ fontSize: 16, fontWeight: 510, color: "#f7f8f8", lineHeight: 1.5, marginBottom: 20 }}>
-            {pregunta.pregunta}
-          </p>
-
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            {pregunta.opciones.map((opcion, i) => {
-              const letras = ["A", "B", "C", "D"];
-              const isSelected = seleccion === i;
-              return (
-                <button
-                  key={i}
-                  onClick={() => setSeleccion(i)}
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 12,
-                    width: "100%",
-                    padding: "14px 16px",
-                    borderRadius: 6,
-                    border: isSelected ? "1px solid #5e6ad2" : "1px solid rgba(255,255,255,0.08)",
-                    background: isSelected ? "rgba(94,106,210,0.08)" : "rgba(255,255,255,0.02)",
-                    color: isSelected ? "#f7f8f8" : "#d0d6e0",
-                    fontSize: 14,
-                    textAlign: "left",
-                    cursor: "pointer",
-                    transition: "all 0.15s ease",
-                  }}
-                >
-                  <span
-                    style={{
-                      flexShrink: 0,
-                      width: 28,
-                      height: 28,
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      borderRadius: 6,
-                      background: isSelected ? "#5e6ad2" : "rgba(255,255,255,0.05)",
-                      color: isSelected ? "#f7f8f8" : "#8a8f98",
-                      fontSize: 13,
-                      fontWeight: 510,
-                    }}
-                  >
-                    {letras[i]}
-                  </span>
-                  <span>{opcion}</span>
-                </button>
-              );
-            })}
+        <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 8, padding: 28, marginBottom: 24 }}>
+          <h2 style={{ fontSize: 18, fontWeight: 510, color: "#f7f8f8", lineHeight: 1.5, marginBottom: 24 }}>{pregunta.enunciado}</h2>
+          <div style={{ display: "grid", gap: 12 }}>
+            {pregunta.respuestas.map((opcion, idx) => (
+              <button key={idx} onClick={() => setSeleccion(idx)} style={{ textAlign: "left", padding: "14px 16px", borderRadius: 6, border: seleccion === idx ? "1px solid #5e6ad2" : "1px solid rgba(255,255,255,0.08)", background: seleccion === idx ? "rgba(94,106,210,0.12)" : "rgba(255,255,255,0.02)", color: "#f7f8f8", cursor: "pointer", fontSize: 15 }}>
+                {stripOptionPrefix(opcion)}
+              </button>
+            ))}
           </div>
         </div>
 
-        <div style={{ display: "flex", justifyContent: "flex-end" }}>
-          <button
-            onClick={handleResponder}
-            disabled={seleccion === null}
-            style={{
-              padding: "12px 24px",
-              borderRadius: 6,
-              border: "none",
-              background: seleccion !== null ? "#5e6ad2" : "rgba(255,255,255,0.05)",
-              color: seleccion !== null ? "#f7f8f8" : "#62666d",
-              fontSize: 14,
-              fontWeight: 510,
-              cursor: seleccion !== null ? "pointer" : "not-allowed",
-              transition: "all 0.15s ease",
-            }}
-          >
-            {indice + 1 >= PREGUNTAS_SIMULACRO ? "Finalizar" : "Siguiente"}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <button onClick={() => finalizarSimulacro(respondidas)} style={{ padding: "10px 16px", borderRadius: 6, background: "transparent", color: "#8a8f98", border: "1px solid rgba(255,255,255,0.08)", cursor: "pointer" }}>
+            Finalizar
+          </button>
+          <button onClick={handleResponder} disabled={seleccion === null} style={{ padding: "12px 24px", borderRadius: 6, background: seleccion === null ? "rgba(255,255,255,0.06)" : "#5e6ad2", color: seleccion === null ? "#62666d" : "#f7f8f8", border: "none", cursor: seleccion === null ? "not-allowed" : "pointer", fontWeight: 510 }}>
+            {indice + 1 >= preguntasSimulacro.length ? "Finalizar simulacro" : "Siguiente"}
           </button>
         </div>
       </div>
@@ -334,74 +269,37 @@ export default function SimulacroPage() {
   }
 
   return (
-    <div style={{ padding: "32px 0" }}>
-      {/* Hero */}
-      <div style={{ marginBottom: 32, textAlign: "center", maxWidth: 600, margin: "0 auto 32px" }}>
-        <h1 style={{ fontSize: 28, fontWeight: 510, color: "#f7f8f8", marginBottom: 12 }}>
-          Simulacro de Examen
-        </h1>
-        <p style={{ fontSize: 15, color: "#8a8f98", marginBottom: 24, lineHeight: 1.6 }}>
-          Simulacro de {PREGUNTAS_SIMULACRO} preguntas aleatorias con tiempo limitado ({TIEMPO_MINUTOS} minutos)
-        </p>
-        <button
-          onClick={iniciarSimulacro}
-          style={{
-            padding: "16px 40px",
-            borderRadius: 8,
-            border: "none",
-            background: "#5e6ad2",
-            color: "#f7f8f8",
-            fontSize: 16,
-            fontWeight: 510,
-            cursor: "pointer",
-            transition: "background 0.15s ease",
-          }}
-        >
-          Iniciar Simulacro
+    <div style={{ padding: "40px 0", maxWidth: 720, margin: "0 auto" }}>
+      <Link href="/" style={{ color: "#62666d", textDecoration: "none", fontSize: 14, marginBottom: 24, display: "inline-block" }}>← Volver</Link>
+      <h1 style={{ fontSize: 32, fontWeight: 510, color: "#f7f8f8", marginBottom: 12 }}>Simulacro de Examen</h1>
+      <p style={{ fontSize: 16, color: "#8a8f98", lineHeight: 1.6, marginBottom: 32 }}>
+        30 preguntas reales seleccionadas del banco: 15 de parte general y 15 de parte especial. Penalización: -{PENALIZACION_ERROR} por fallo.
+      </p>
+
+      <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 8, padding: 28, marginBottom: 24 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16, marginBottom: 28 }}>
+          <div><p style={{ color: "#8a8f98", fontSize: 13 }}>Preguntas</p><p style={{ color: "#f7f8f8", fontSize: 24, fontWeight: 510 }}>{PREGUNTAS_SIMULACRO}</p></div>
+          <div><p style={{ color: "#8a8f98", fontSize: 13 }}>Tiempo</p><p style={{ color: "#f7f8f8", fontSize: 24, fontWeight: 510 }}>{TIEMPO_MINUTOS} min</p></div>
+          <div><p style={{ color: "#8a8f98", fontSize: 13 }}>Banco</p><p style={{ color: "#f7f8f8", fontSize: 24, fontWeight: 510 }}>{preguntas.length}</p></div>
+        </div>
+        <button onClick={iniciarSimulacro} style={{ width: "100%", padding: "14px 24px", borderRadius: 6, background: "#5e6ad2", color: "#f7f8f8", fontSize: 15, fontWeight: 510, border: "none", cursor: "pointer" }}>
+          Iniciar simulacro
         </button>
       </div>
 
-      {/* Simulacros anteriores */}
-      {simulacros.length > 0 && (
-        <div style={{ maxWidth: 720, margin: "0 auto" }}>
-          <h2 style={{ fontSize: 16, fontWeight: 510, color: "#f7f8f8", marginBottom: 16 }}>
-            Simulacros anteriores
-          </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            {simulacros
-              .slice()
-              .reverse()
-              .map((s, i) => (
-                <div
-                  key={i}
-                  style={{
-                    background: "rgba(255,255,255,0.02)",
-                    border: "1px solid rgba(255,255,255,0.08)",
-                    borderRadius: 8,
-                    padding: 16,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    gap: 16,
-                  }}
-                >
-                  <div>
-                    <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 4 }}>
-                      {formatearFecha(s.fecha)}
-                    </p>
-                    <p style={{ fontSize: 14, fontWeight: 510, color: "#f7f8f8" }}>
-                      {s.aciertos} aciertos · {s.errores} fallos · {s.sin_responder} sin responder
-                    </p>
-                  </div>
-                  <div style={{ textAlign: "right" }}>
-                    <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 2 }}>Puntuación</p>
-                    <p style={{ fontSize: 20, fontWeight: 510, color: "#5e6ad2" }}>{s.puntuacion}</p>
-                  </div>
-                </div>
-              ))}
+      {simulacros.length > 0 ? (
+        <section>
+          <h2 style={{ fontSize: 18, fontWeight: 510, color: "#f7f8f8", marginBottom: 12 }}>Últimos intentos</h2>
+          <div style={{ display: "grid", gap: 8 }}>
+            {simulacros.slice(-5).reverse().map((s, i) => (
+              <div key={`${s.fecha}-${i}`} style={{ display: "flex", justifyContent: "space-between", padding: 14, borderRadius: 6, background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)", color: "#8a8f98" }}>
+                <span>{formatearFecha(s.fecha)}</span>
+                <span>{s.aciertos}/{s.total} · {s.puntuacion} pts</span>
+              </div>
+            ))}
           </div>
-        </div>
-      )}
+        </section>
+      ) : null}
     </div>
   );
 }

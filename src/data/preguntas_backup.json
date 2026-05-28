@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "preg-001",
+    "enunciado": "Según el artículo 1.1 de la Constitución Española, España se configura como:",
+    "respuestas": [
+      "A) Estado social y democrático de Derecho",
+      "B) Estado unitario y parlamentario",
+      "C) República democrática federal",
+      "D) Estado de derecho liberal"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-002",
+    "enunciado": "De acuerdo con el artículo 1.2 CE, la soberanía nacional reside en:",
+    "respuestas": [
+      "A) El Rey",
+      "B) El pueblo español",
+      "C) Las Cortes Generales",
+      "D) El Gobierno de la Nación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-003",
+    "enunciado": "Los derechos fundamentales reconocidos en los artículos 15 a 29 CE gozan de doble garantía. ¿Cuál de las siguientes NO forma parte de esa doble garantía?",
+    "respuestas": [
+      "A) Procedimientos preferentes y sumarios ante tribunales ordinarios",
+      "B) Recurso de amparo ante el Tribunal Constitucional",
+      "C) Recurso de casación ante el Tribunal Supremo",
+      "D) Tutela por el Defensor del Pueblo"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-004",
+    "enunciado": "El artículo 15 CE establece la abolición de la pena de muerte, salvo:",
+    "respuestas": [
+      "A) En ningún caso está permitida",
+      "B) En delitos de terrorismo",
+      "C) En leyes penales militares para tiempo de guerra",
+      "D) En casos de alta traición"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-005",
+    "enunciado": "Según el artículo 17 CE, la detención preventiva no podrá durar más de:",
+    "respuestas": [
+      "A) 24 horas",
+      "B) 48 horas",
+      "C) 72 horas",
+      "D) 96 horas"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-006",
+    "enunciado": "¿Cuál de los siguientes principios está recogido expresamente en el artículo 24 CE?",
+    "respuestas": [
+      "A) Principio de legalidad administrativa",
+      "B) Principio de presunción de inocencia",
+      "C) Principio de irretroactividad de las leyes penales",
+      "D) Principio de separación de poderes"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-007",
+    "enunciado": "El artículo 137 CE establece que el Estado se organiza territorialmente en:",
+    "respuestas": [
+      "A) Municipios, provincias y Comunidades Autónomas",
+      "B) Comunidades Autónomas únicamente",
+      "C) Municipios y provincias únicamente",
+      "D) Regiones, provincias y municipios"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-008",
+    "enunciado": "Según el artículo 149 CE, ¿cuál de las siguientes es una competencia exclusiva del Estado?",
+    "respuestas": [
+      "A) Cultura",
+      "B) Medio ambiente",
+      "C) Legislación penal",
+      "D) Turismo"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-009",
+    "enunciado": "De acuerdo con el artículo 149.3 CE, las competencias no atribuidas expresamente al Estado corresponden:",
+    "respuestas": [
+      "A) Al Estado por defecto",
+      "B) A las Comunidades Autónomas, conforme a sus Estatutos",
+      "C) A los municipios",
+      "D) A las Diputaciones Provinciales"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-010",
+    "enunciado": "La Ley 39/2015 establece en su artículo 3 que los sujetos de la Administración Pública se rigen, entre otros, por los principios de:",
+    "respuestas": [
+      "A) Legalidad, eficacia, jerarquía y buena fe",
+      "B) Igualdad, neutralidad y gratuidad",
+      "C) Subsidiariedad y proporcionalidad",
+      "D) Autonomía y descentralización"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-011",
+    "enunciado": "Según la Ley 39/2015, un procedimiento administrativo se declara caducado cuando hayan transcurrido:",
+    "respuestas": [
+      "A) 3 meses sin actuación alguna desde el último acto de tramitación",
+      "B) 6 meses sin actuación alguna desde el último acto de tramitación",
+      "C) 1 año sin actuación alguna desde el último acto de tramitación",
+      "D) 2 años sin actuación alguna desde el último acto de tramitación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-012",
+    "enunciado": "El plazo para interponer recurso de alzada ante el órgano superior jerárquico, según la Ley 39/2015, es de:",
+    "respuestas": [
+      "A) 15 días",
+      "B) 1 mes",
+      "C) 2 meses",
+      "D) 3 meses"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-013",
+    "enunciado": "Según la Ley 40/2015, el quórum de constitución de los órganos colegiados es:",
+    "respuestas": [
+      "A) La mitad más uno de sus miembros",
+      "B) La mayoría de sus miembros",
+      "C) Dos tercios de sus miembros",
+      "D) La totalidad de sus miembros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-014",
+    "enunciado": "De acuerdo con el artículo 39 de la Ley 40/2015, son actos nulos de pleno derecho, EXCEPTO:",
+    "respuestas": [
+      "A) Los dictados por órgano manifiestamente incompetente",
+      "B) Los que tengan un contenido imposible",
+      "C) Los que contengan un defecto de forma no esencial",
+      "D) Los que tengan un contenido contrario a la ley"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-015",
+    "enunciado": "La Ley 40/2015 establece que los actos administrativos se notificarán a los interesados en el plazo de:",
+    "respuestas": [
+      "A) 5 días desde su adopción",
+      "B) 10 días desde su adopción",
+      "C) 15 días desde su adopción",
+      "D) 1 mes desde su adopción"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-016",
+    "enunciado": "Según el artículo 76 del TREBEP (RD Leg. 5/2015), el Grupo A1 requiere como titulación:",
+    "respuestas": [
+      "A) Bachiller o equivalente",
+      "B) Grado o equivalente",
+      "C) Grado equivalente más Máster universitario",
+      "D) ESO o equivalente"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-017",
+    "enunciado": "El personal eventual, según el artículo 8 del TREBEP:",
+    "respuestas": [
+      "A) Tiene derecho a carrera administrativa",
+      "B) Cesa con la autoridad que lo nombró y no computa como mérito para el acceso a la función pública",
+      "C) Es nombrado por necesidades de urgencia y vacantes no cubiertas",
+      "D) Tiene contrato indefinido no fijo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-018",
+    "enunciado": "¿Cuál de los siguientes es un deber del empleado público recogido en el artículo 52 del TREBEP?",
+    "respuestas": [
+      "A) Derecho a la huelga",
+      "B) Derecho a la formación continua",
+      "C) Sigilo profesional y secreto de materias reservadas",
+      "D) Derecho a la movilidad"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-019",
+    "enunciado": "Según la Ley 53/1984, ¿cuál de las siguientes actividades constituye una incompatibilidad absoluta?",
+    "respuestas": [
+      "A) La docencia universitaria",
+      "B) La condición de administrador de sociedades mercantiles",
+      "C) La actividad literaria",
+      "D) La asistencia social"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-020",
+    "enunciado": "De acuerdo con la Ley 53/1984, los altos cargos no pueden desempeñar actividades privadas retribuidas durante su mandato ni en los:",
+    "respuestas": [
+      "A) Seis meses siguientes a su cese",
+      "B) Un año siguientes a su cese",
+      "C) Dos años siguientes a su cese",
+      "D) Cuatro años siguientes a su cese"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-021",
+    "enunciado": "La Ley 53/1984 permite la compatibilidad para actividades docentes, científicas, artísticas y profesionales sanitarias, siempre que se obtenga previamente:",
+    "respuestas": [
+      "A) La autorización del Presidente del Gobierno",
+      "B) La autorización del Ministro o titular del órgano competente",
+      "C) La autorización del Tribunal de Cuentas",
+      "D) No se requiere autorización previa"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-022",
+    "enunciado": "Según la Ley 19/2013, en materia de acceso a la información pública, el silencio administrativo es:",
+    "respuestas": [
+      "A) Desestimatorio",
+      "B) Estimatorio",
+      "C) Requiere nueva solicitud",
+      "D) No está regulado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-023",
+    "enunciado": "El plazo de resolución para las solicitudes de acceso a la información pública, según la Ley 19/2013, es de:",
+    "respuestas": [
+      "A) 15 días",
+      "B) 1 mes",
+      "C) 2 meses",
+      "D) 3 meses"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-024",
+    "enunciado": "La publicidad activa regulada en el artículo 6 de la Ley 19/2013 debe realizarse en:",
+    "respuestas": [
+      "A) El Boletín Oficial del Estado",
+      "B) Los portales web de las Administraciones de forma reutilizable",
+      "C) Los tablones de anuncios municipales",
+      "D) El Diario de Sesiones de las Cortes"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-025",
+    "enunciado": "Según el artículo 15 de la Ley 31/1995, ¿cuál es el primer principio de la acción preventiva?",
+    "respuestas": [
+      "A) Evaluar los riesgos",
+      "B) Evitar los riesgos",
+      "C) Combatir los riesgos en su origen",
+      "D) Adaptar el trabajo a la persona"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-026",
+    "enunciado": "El artículo 19 de la Ley 31/1995 reconoce a los trabajadores el derecho a interrumpir la actividad ante:",
+    "respuestas": [
+      "A) Cualquier situación de riesgo",
+      "B) Situaciones de riesgo grave e inminente",
+      "C) Situaciones de estrés laboral",
+      "D) Fallos en la maquinaria"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-027",
+    "enunciado": "Según la Ley 31/1995, el empresario está obligado a constituir un Comité de Seguridad y Salud cuando la plantilla sea de:",
+    "respuestas": [
+      "A) 25 o más trabajadores",
+      "B) 50 o más trabajadores",
+      "C) 100 o más trabajadores",
+      "D) 250 o más trabajadores"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-028",
+    "enunciado": "De acuerdo con la Ley 31/1995, el empresario tiene la obligación de realizar una:",
+    "respuestas": [
+      "A) Auditoría externa anual",
+      "B) Evaluación de riesgos",
+      "C) Inspección médica obligatoria mensual",
+      "D) Formación en primeros auxilios"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-029",
+    "enunciado": "La Ley Orgánica 3/2007 establece que los planes de igualdad son obligatorios en empresas de más de:",
+    "respuestas": [
+      "A) 50 trabajadores",
+      "B) 100 trabajadores",
+      "C) 150 trabajadores",
+      "D) 250 trabajadores"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-030",
+    "enunciado": "Según la Ley Orgánica 3/2007, la violencia de género se define como una manifestación de:",
+    "respuestas": [
+      "A) La falta de educación",
+      "B) La desigualdad de poder entre mujeres y hombres",
+      "C) La crisis económica",
+      "D) El desempleo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-031",
+    "enunciado": "De acuerdo con la Ley Orgánica 3/2007, las Administraciones Públicas deben incorporar la perspectiva de género en:",
+    "respuestas": [
+      "A) Únicamente en la contratación pública",
+      "B) Sus políticas, planes y presupuestos",
+      "C) Solo en la educación",
+      "D) Solo en la sanidad"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-032",
+    "enunciado": "La Ley Orgánica 3/2007, en relación con el artículo 66 del Estatuto de los Trabajadores, establece la obligatoriedad de un registro retributivo desagregado por:",
+    "respuestas": [
+      "A) Antigüedad",
+      "B) Sexos",
+      "C) Categorías profesionales",
+      "D) Nivel de estudios"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-033",
+    "enunciado": "Según el artículo 4 de la Ley Orgánica 3/2018, ¿cuál de los siguientes NO es un principio del tratamiento de datos personales?",
+    "respuestas": [
+      "A) Licitud, lealtad y transparencia",
+      "B) Limitación de la finalidad",
+      "C) Maximización de datos",
+      "D) Integridad y confidencialidad"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-034",
+    "enunciado": "El derecho de los interesados a que se supriman sus datos personales cuando ya no sean necesarios se conoce como:",
+    "respuestas": [
+      "A) Derecho de oposición",
+      "B) Derecho de portabilidad",
+      "C) Derecho al olvido",
+      "D) Derecho de rectificación"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-035",
+    "enunciado": "Según el artículo 34 de la Ley Orgánica 3/2018, el Delegado de Protección de Datos (DPD) es obligatorio en:",
+    "respuestas": [
+      "A) Todas las empresas privadas",
+      "B) Autoridades y organismos públicos, salvo excepciones",
+      "C) Solo en entidades bancarias",
+      "D) Solo en hospitales privados"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-036",
+    "enunciado": "Las sanciones por infracciones graves de la Ley Orgánica 3/2018 pueden alcanzar hasta:",
+    "respuestas": [
+      "A) 1 millón de euros",
+      "B) 5 millones de euros",
+      "C) 10 millones de euros o el 2% de la facturación",
+      "D) 20 millones de euros o el equivalente al 4% de la facturación total anual mundial"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-037",
+    "enunciado": "Según el TRLHL (RD Leg. 2/2004), el tipo de gravamen máximo del IBI para inmuebles urbanos es del:",
+    "respuestas": [
+      "A) 0,5%",
+      "B) 0,9%",
+      "C) 1,1%",
+      "D) 1,5%"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-038",
+    "enunciado": "El Impuesto sobre Actividades Económicas (IAE) establece una exención para empresas con facturación inferior a:",
+    "respuestas": [
+      "A) 500.000 euros",
+      "B) 1.000.000 euros",
+      "C) 2.000.000 euros",
+      "D) 5.000.000 euros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-039",
+    "enunciado": "Según el TRLHL, para que una prestación sea sujeta a tasa es necesario, entre otros requisitos, que:",
+    "respuestas": [
+      "A) Sea obligatoria para todos los ciudadanos",
+      "B) Se preste efectivamente y sea solicitada o recibida voluntariamente",
+      "C) Esté sujeta a precio público",
+      "D) Sea gestionada por el Estado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-040",
+    "enunciado": "El Texto Refundido de la Ley Reguladora de las Haciendas Locales (TRLHL) se estructura en:",
+    "respuestas": [
+      "A) Dos libros: Régimen financiero y Tributos locales",
+      "B) Tres libros: Régimen financiero, Tributos locales y Régimen de eficacia tributaria",
+      "C) Cuatro libros: Régimen financiero, Tributos locales, Régimen de eficacia tributaria y Régimen sancionador",
+      "D) Cinco libros: Régimen financiero, Tributos locales, Régimen de eficacia tributaria, Régimen sancionador y Régimen de recaudación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-041",
+    "enunciado": "Según los fundamentos de la comunicación audiovisual, los elementos esenciales del proceso comunicativo son:",
+    "respuestas": [
+      "A) Emisor, mensaje, código, canal, receptor y feedback",
+      "B) Emisor, receptor, código y contexto únicamente",
+      "C) Fuente, transmisor, señal y destino",
+      "D) Orador, discurso, público y respuesta"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-042",
+    "enunciado": "El modelo de Shannon-Weaver (1949) introduce el concepto de:",
+    "respuestas": [
+      "A) Retroalimentación circular",
+      "B) Ruido como interferencia en la transmisión",
+      "C) Código morse como sistema universal",
+      "D) Comunicación masiva unidireccional"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-043",
+    "enunciado": "En el lenguaje audiovisual, el plano que muestra al sujeto de la cintura para arriba, con las manos visibles, se denomina:",
+    "respuestas": [
+      "A) Plano general (PG)",
+      "B) Plano americano (PA)",
+      "C) Plano medio (PM)",
+      "D) Primer plano (PP)"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-13",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-044",
+    "enunciado": "¿Cuál de las siguientes tecnologías de sensor de imagen se caracteriza por menor consumo energético y lectura por píxeles, pero puede presentar rolling shutter?",
+    "respuestas": [
+      "A) CCD (Charge-Coupled Device)",
+      "B) CMOS (Complementary Metal-Oxide-Semiconductor)",
+      "C) TFT (Thin-Film Transistor)",
+      "D) OLED (Organic Light-Emitting Diode)"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-045",
+    "enunciado": "El tamaño de sensor Full Frame en cámaras profesionales corresponde aproximadamente a:",
+    "respuestas": [
+      "A) 36 x 24 mm",
+      "B) 24,9 x 14 mm",
+      "C) 17,3 x 13 mm",
+      "D) 8,8 x 6,6 mm"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-046",
+    "enunciado": "El conector estándar utilizado en interfaces SDI (Serial Digital Interface) para video profesional es:",
+    "respuestas": [
+      "A) HDMI tipo A",
+      "B) BNC con cable coaxial 75Ω",
+      "C) XLR de 3 pines",
+      "D) RJ45 Ethernet"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-14",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-047",
+    "enunciado": "Los micrófonos dinámicos, como el Shure SM58, funcionan mediante:",
+    "respuestas": [
+      "A) Cápsula con membrana y placa trasera polarizada",
+      "B) Cinta metálica sensible en un campo magnético",
+      "C) Bobina móvil en un campo magnético",
+      "D) Condensador electret con alimentación phantom"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-048",
+    "enunciado": "El patrón polar que presenta máxima sensibilidad frontal y rechazo posterior se denomina:",
+    "respuestas": [
+      "A) Omnidireccional",
+      "B) Figura de ocho",
+      "C) Cardioide",
+      "D) Cañón (shotgun)"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-049",
+    "enunciado": "En audio profesional, el conector XLR (Canon) de 3 pines es:",
+    "respuestas": [
+      "A) Balanceado, siendo estándar profesional",
+      "B) Desbalanceado, usado en equipos domésticos",
+      "C) Óptico, para señales de fibra",
+      "D) Digital exclusivo para protocolos AES/EBU"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-050",
+    "enunciado": "La temperatura de color estándar para lámparas de tungsteno en estudios de iluminación es de:",
+    "respuestas": [
+      "A) 1.900K - 2.800K",
+      "B) 3.200K",
+      "C) 5.600K",
+      "D) 6.500K - 7.500K"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-051",
+    "enunciado": "Las fuentes de luz LED profesionales, como el ARRI SkyPanel o Aputure 600d, se caracterizan principalmente por:",
+    "respuestas": [
+      "A) Generar una gran cantidad de calor infrarrojo",
+      "B) Requerir balasto electrónico obligatorio",
+      "C) Bajo consumo, ajuste continuo de temperatura y alto CRI",
+      "D) Emitir únicamente luz ultravioleta"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-052",
+    "enunciado": "En el esquema clásico de iluminación de tres puntos, la luz que separa el sujeto del fondo iluminándolo por detrás se denomina:",
+    "respuestas": [
+      "A) Luz de relleno (fill light)",
+      "B) Luz clave (key light)",
+      "C) Luz de fondo (background light)",
+      "D) Luz de contraluz (back light / rim)"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-16",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-053",
+    "enunciado": "¿Cuál de los siguientes software de edición de video integra en una sola aplicación edición, composición (Fusion), corrección de color y audio (Fairlight)?",
+    "respuestas": [
+      "A) DaVinci Resolve",
+      "B) Adobe Premiere Pro",
+      "C) Avid Media Composer",
+      "D) Final Cut Pro"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-054",
+    "enunciado": "La técnica de montaje en la que el audio de un plano se adelanta al cambio de imagen del siguiente plano se conoce como:",
+    "respuestas": [
+      "A) Match cut",
+      "B) L-cut",
+      "C) J-cut",
+      "D) Hard cut"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-055",
+    "enunciado": "El espacio de color utilizado como estándar para contenido UHD/4K HDR es:",
+    "respuestas": [
+      "A) Rec. 709",
+      "B) Rec. 2020",
+      "C) DCI-P3",
+      "D) sRGB"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-17",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-056",
+    "enunciado": "En ecualización de audio, el rango de frecuencias comprendido entre 500 Hz y 2 kHz corresponde a:",
+    "respuestas": [
+      "A) Subgraves",
+      "B) Graves",
+      "C) Medios",
+      "D) Agudos"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-057",
+    "enunciado": "El dispositivo de procesamiento de audio dinámico que reduce la diferencia entre picos y valles de una señal mediante parámetros como ratio, threshold, attack y release es:",
+    "respuestas": [
+      "A) Un compresor",
+      "B) Un limitador",
+      "C) Un noise gate",
+      "D) Un expansor"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-058",
+    "enunciado": "El estándar SMPTE 12M para sincronización de audio y video define formatos de timecode como LTC y VITC. ¿Cuál es la tasa de frames estándar para sistemas PAL/SECAM?",
+    "respuestas": [
+      "A) 24 fps",
+      "B) 25 fps",
+      "C) 29,97 fps",
+      "D) 30 fps"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-18",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-059",
+    "enunciado": "La técnica de composición digital que elimina un color dominante (generalmente verde o azul) para integrar un sujeto sobre otro fondo se denomina:",
+    "respuestas": [
+      "A) Rotoscopia",
+      "B) Chroma key (green screen / blue screen)",
+      "C) Matchmoving",
+      "D) Camera tracking"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-19",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-060",
+    "enunciado": "Para exportar gráficos con canal alpha (transparencia) en postproducción profesional, el formato más adecuado es:",
+    "respuestas": [
+      "A) H.264 en contenedor MP4",
+      "B) ProRes 422 Proxy",
+      "C) ProRes 4444",
+      "D) DNxHD 145"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-19",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-061",
+    "enunciado": "En corrección y gradación de color, las LUTs (Look-Up Tables) técnicas se diferencian de las creativas porque:",
+    "respuestas": [
+      "A) Las técnicas transforman espacios de color de forma matemática, mientras que las creativas aplican un look estético",
+      "B) Las técnicas solo funcionan en SDR y las creativas en HDR",
+      "C) Las técnicas son exclusivas de DaVinci Resolve",
+      "D) Las creativas modifican la resolución del video"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-062",
+    "enunciado": "La tecnología de proyección DLP (Digital Light Processing) utiliza:",
+    "respuestas": [
+      "A) Paneles LCD con prisma dicroico",
+      "B) Cristales líquidos sobre silicio (LCoS)",
+      "C) Diodos orgánicos emisores de luz",
+      "D) Micróespejos DMD (Digital Micromirror Device)"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-20",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-063",
+    "enunciado": "Los proyectores con fuente de luz láser se caracterizan principalmente por:",
+    "respuestas": [
+      "A) Una vida útil superior a 20.000 horas y brillo constante",
+      "B) Requerir cambio frecuente de lámparas de tungsteno",
+      "C) Emitir únicamente luz monocromática",
+      "D) Tener un contraste muy inferior al de los proyectores LCD"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-064",
+    "enunciado": "El protocolo de audio sobre IP desarrollado por Audinate que permite transportar hasta 512x512 canales sobre red Ethernet estándar con latencia configurable es:",
+    "respuestas": [
+      "A) HDBaseT",
+      "B) Dante",
+      "C) AVB (Audio Video Bridging)",
+      "D) MADI"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-20",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-065",
+    "enunciado": "En la producción de eventos audiovisuales, el documento que detalla los requerimientos técnicos de sonido, iluminación, video y escenario del cliente o artista se denomina:",
+    "respuestas": [
+      "A) Runsheet",
+      "B) Patch list",
+      "C) Rider técnico",
+      "D) Plot de iluminación"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-066",
+    "enunciado": "La unidad de control remoto que permite ajustar iris, balance de blancos, ganancia y shading de cámaras de estudio en tiempo real se denomina:",
+    "respuestas": [
+      "A) Switcher",
+      "B) Tally",
+      "C) Intercom",
+      "D) CCU (Camera Control Unit)"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-067",
+    "enunciado": "En una realización multicámara, el dispositivo que permite cortar, disolver, aplicar chroma key y superponer gráficos entre múltiples fuentes de video se denomina:",
+    "respuestas": [
+      "A) Switcher o vision mixer",
+      "B) CCU (Camera Control Unit)",
+      "C) Encoder de streaming",
+      "D) DSP de audio"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-068",
+    "enunciado": "El codec H.264/AVC, estándar de distribución en broadcast y streaming, utiliza compresión:",
+    "respuestas": [
+      "A) Intraframe únicamente",
+      "B) Sin pérdidas (lossless)",
+      "C) Interframe con perfiles Baseline, Main y High",
+      "D) Vectorial basada en formas geométricas"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-22",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-069",
+    "enunciado": "El codec ProRes 422 HQ de Apple se clasifica como:",
+    "respuestas": [
+      "A) Codec interframe de distribución",
+      "B) Codec intraframe de edición con alta calidad",
+      "C) Codec de compresión con pérdida para streaming web",
+      "D) Formato de audio comprimido"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-22",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-070",
+    "enunciado": "Los formatos RAW en captación de video, como RED R3D o ARRI RAW, se caracterizan por:",
+    "respuestas": [
+      "A) Ser archivos comprimidos con pérdida para distribución",
+      "B) Contener datos directos del sensor sin debayering completo, ofreciendo máxima flexibilidad en postproducción",
+      "C) Tener un tamaño de archivo muy reducido",
+      "D) Ser exclusivos de cámaras de fotografía y no aplicables a video"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-22",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-071",
+    "enunciado": "El protocolo de streaming desarrollado por Apple que segmenta el contenido en archivos .ts o .m4s con lista de reproducción M3U8 es:",
+    "respuestas": [
+      "A) HLS (HTTP Live Streaming)",
+      "B) DASH (Dynamic Adaptive Streaming over HTTP)",
+      "C) RTMP (Real-Time Messaging Protocol)",
+      "D) SRT (Secure Reliable Transport)"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-072",
+    "enunciado": "Una CDN (Content Delivery Network) en distribución de streaming se define como:",
+    "respuestas": [
+      "A) Un servidor central único donde se almacena todo el contenido",
+      "B) Una red de servidores edge que replica contenido geográficamente para reducir latencia",
+      "C) Un protocolo de compresión de video específico",
+      "D) Un sistema de cifrado de extremo a extremo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-073",
+    "enunciado": "Una empresa necesita realizar una contribución remota de video con baja latencia, recuperación de pérdidas de paquetes y cifrado AES-256 desde una ubicación exterior hacia su centro de producción. ¿Qué protocolo es el más adecuado?",
+    "respuestas": [
+      "A) RTMP para ingestión a YouTube",
+      "B) SRT (Secure Reliable Transport)",
+      "C) HLS con latencia estándar",
+      "D) WebRTC para videoconferencia"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-074",
+    "enunciado": "Según la Ley de Propiedad Intelectual española, los derechos morales del autor son:",
+    "respuestas": [
+      "A) Renunciables y transmisibles a terceros",
+      "B) Limitados a una duración de 70 años post mortem",
+      "C) Irrenunciables e inalienables",
+      "D) Exclusivos de obras audiovisuales"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-24",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-075",
+    "enunciado": "La duración de los derechos patrimoniales de explotación de una obra según el artículo 26 de la Ley de Propiedad Intelectual es de:",
+    "respuestas": [
+      "A) 50 años desde la publicación",
+      "B) 70 años desde la creación de la obra",
+      "C) Vida del autor más 70 años post mortem auctoris",
+      "D) 100 años desde la primera comunicación pública"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-24",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-076",
+    "enunciado": "La entidad de gestión colectiva encargada de administrar los derechos de autor musicales y audiovisuales en España es:",
+    "respuestas": [
+      "A) CEDRO",
+      "B) VEGAP",
+      "C) SGAE",
+      "D) AIE"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-24",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-077",
+    "enunciado": "La Directiva 2019/790 (DSM Directive) del Parlamento Europeo, que afecta a la legislación audiovisual española, se centra principalmente en:",
+    "respuestas": [
+      "A) La armonización de estándares técnicos de broadcast",
+      "B) El mercado único digital de derechos de autor, incluyendo nuevas excepciones y obligaciones para plataformas",
+      "C) La regulación de patentes industriales",
+      "D) La eliminación de las entidades de gestión colectiva"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-24",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-078",
+    "enunciado": "Un creador desea licenciar su obra permitiendo su uso comercial siempre que se le atribuya la autoría y las obras derivadas se compartan con la misma licencia. ¿Qué licencia Creative Commons debe elegir?",
+    "respuestas": [
+      "A) CC BY",
+      "B) CC BY-SA",
+      "C) CC BY-ND",
+      "D) CC BY-NC"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-24",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-079",
+    "enunciado": "Según la Ley 17/2001, el registro de una marca en la OEPM (Oficina Española de Patentes y Marcas) tiene una duración inicial de 10 años y:",
+    "respuestas": [
+      "A) No es renovable",
+      "B) Es renovable indefinidamente",
+      "C) Solo se puede renovar una vez",
+      "D) Requiere reevaluación cada 5 años"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-24",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-080",
+    "enunciado": "En el ámbito de la propiedad intelectual, la entidad VEGAP (Visual Entidad de Gestión de Artistas Plásticos) se encarga específicamente de:",
+    "respuestas": [
+      "A) La gestión de derechos de reproducción de obras literarias",
+      "B) La gestión de derechos de artistas intérpretes o ejecutantes",
+      "C) La gestión de derechos de artistas plásticos",
+      "D) La gestión de derechos musicales y audiovisuales"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-24",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-081",
+    "enunciado": "Según el artículo 1.3 de la Constitución Española, la forma política del Estado español es:",
+    "respuestas": [
+      "A) República parlamentaria",
+      "B) Monarquía parlamentaria",
+      "C) Monarquía absoluta",
+      "D) República federal"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-082",
+    "enunciado": "El artículo 2 de la CE proclama la indisoluble unidad de la Nación española y reconoce el derecho a la autonomía de:",
+    "respuestas": [
+      "A) Las provincias",
+      "B) Las nacionalidades y regiones",
+      "C) Los municipios",
+      "D) Las comarcas"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-083",
+    "enunciado": "Según el artículo 3 CE, el castellano es lengua oficial del Estado, y las demás lenguas españolas serán oficiales:",
+    "respuestas": [
+      "A) En todo el territorio nacional",
+      "B) En sus respectivas Comunidades Autónomas según sus Estatutos",
+      "C) Únicamente en el ámbito educativo",
+      "D) Solo en la administración local"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-084",
+    "enunciado": "La capital del Estado, según el artículo 5 CE, es:",
+    "respuestas": [
+      "A) Barcelona",
+      "B) Madrid",
+      "C) Sevilla",
+      "D) Toledo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-085",
+    "enunciado": "Según el artículo 53.2 CE, los derechos fundamentales reconocidos en los artículos 15 a 29 gozan de doble garantía. ¿Cuál de las siguientes opciones describe correctamente esta doble garantía?",
+    "respuestas": [
+      "A) Tutela ante tribunales ordinarios y recurso de amparo ante el Tribunal Constitucional",
+      "B) Tutela ante el Tribunal Supremo y recurso de casación",
+      "C) Tutela ante el Tribunal Constitucional y recurso de inconstitucionalidad",
+      "D) Tutela ante la Audiencia Nacional y recurso de alzada"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-1",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-086",
+    "enunciado": "El artículo 54 CE establece el Defensor del Pueblo como institución encargada de:",
+    "respuestas": [
+      "A) Juzgar las infracciones penales cometidas por funcionarios",
+      "B) Supervisar la actividad administrativa y defender los derechos comprendidos en el Título I",
+      "C) Nombrar a los miembros del Tribunal Constitucional",
+      "D) Proponer reformas de la Constitución"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-1",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-087",
+    "enunciado": "En relación con el artículo 55 CE sobre suspensión de derechos y libertades, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Puede suspenderse cualquier derecho fundamental sin límite temporal",
+      "B) La suspensión requiere acuerdo del Congreso en todos los casos",
+      "C) El artículo 55 permite la suspensión de derechos en casos excepcionales de interés público, con las garantías que establece la ley",
+      "D) Solo el Gobierno puede acordar la suspensión, sin intervención parlamentaria"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-1",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-088",
+    "enunciado": "Según el artículo 16 CE, ninguna confesión tiene:",
+    "respuestas": [
+      "A) Derecho a la libertad de culto",
+      "B) Carácter estatal",
+      "C) Derecho a la enseñanza religiosa",
+      "D) Derecho a la asociación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-089",
+    "enunciado": "El artículo 17 CE establece que toda persona detenida debe ser informada inmediatamente de sus derechos y de las razones de su detención, y:",
+    "respuestas": [
+      "A) No podrá ser incomunicada en ningún caso",
+      "B) No será obligada a declarar",
+      "C) Deberá confesar su culpabilidad",
+      "D) Será juzgada en un plazo de 24 horas"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-090",
+    "enunciado": "Según el artículo 18 CE, el domicilio es:",
+    "respuestas": [
+      "A) Divisible entre los cónyuges",
+      "B) Inviolable",
+      "C) Sujeto a registro sin autorización judicial",
+      "D) De libre disposición de la Administración"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-091",
+    "enunciado": "El artículo 20 CE reconoce la libertad de expresión, de reunión y de:",
+    "respuestas": [
+      "A) Huelga",
+      "B) Manifestación",
+      "C) Sindicación",
+      "D) Educación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-092",
+    "enunciado": "Según el artículo 21 CE, las reuniones en lugares de tránsito público requieren:",
+    "respuestas": [
+      "A) Autorización previa de la autoridad competente",
+      "B) Comunicación previa con 48 horas de antelación",
+      "C) Licencia municipal con 15 días de antelación",
+      "D) Solo notificación posterior al evento"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-2",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-093",
+    "enunciado": "El artículo 24 CE reconoce el derecho a la tutela judicial efectiva. ¿Cuál de las siguientes NO es una garantía explícita de este artículo?",
+    "respuestas": [
+      "A) Principio de legalidad penal",
+      "B) Presunción de inocencia",
+      "C) Derecho a la asistencia de letrado",
+      "D) Derecho al recurso de casación automático"
+    ],
+    "respuesta_correcta": "D",
+    "tema_id": "tema-2",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-094",
+    "enunciado": "En relación con el artículo 28 CE sobre libertad sindical y derecho de huelga, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) La sindicación es obligatoria para todos los trabajadores",
+      "B) El cierre patronal está permitido en situaciones de crisis empresarial",
+      "C) La ley regulará el ejercicio del derecho de huelga y garantizará la libertad sindical",
+      "D) Solo los funcionarios públicos pueden sindicarse"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-2",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-095",
+    "enunciado": "Según el artículo 140 CE, el gobierno de los municipios corresponde a:",
+    "respuestas": [
+      "A) Las Diputaciones Provinciales",
+      "B) Los Ayuntamientos, integrados por el Alcalde y los Concejales",
+      "C) Las Juntas de Comunidades Autónomas",
+      "D) El Delegado del Gobierno"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-096",
+    "enunciado": "El artículo 141 CE establece que el gobierno de las provincias corresponde a:",
+    "respuestas": [
+      "A) Los Ayuntamientos",
+      "B) Las Diputaciones Provinciales u otras corporaciones de ámbito provincial",
+      "C) Las Cortes Generales",
+      "D) El Ministerio del Interior"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-097",
+    "enunciado": "Según el artículo 147 CE, los Estatutos de Autonomía son:",
+    "respuestas": [
+      "A) Leyes ordinarias del Estado",
+      "B) La norma institucional básica de cada Comunidad Autónoma",
+      "C) Reglamentos del Congreso de los Diputados",
+      "D) Decretos del Gobierno central"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-098",
+    "enunciado": "El artículo 150 CE permite al Estado:",
+    "respuestas": [
+      "A) Suprimir las Comunidades Autónomas",
+      "B) Delegar en CCAA la ejecución de servicios estatales y transferir competencias mediante leyes orgánicas",
+      "C) Imponer tributos exclusivos a las CCAA",
+      "D) Disolver los parlamentos autonómicos"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-099",
+    "enunciado": "Según el artículo 148 CE, las Comunidades Autónomas pueden asumir competencias en materia de:",
+    "respuestas": [
+      "A) Defensa nacional y relaciones internacionales",
+      "B) Cultura, medio ambiente, urbanismo, servicios sociales y turismo",
+      "C) Legislación penal y civil",
+      "D) Régimen electoral general y armas"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-100",
+    "enunciado": "El artículo 149.3 CE establece que las competencias no atribuidas expresamente al Estado por la Constitución:",
+    "respuestas": [
+      "A) Corresponden al Estado por defecto",
+      "B) Corresponden a las Comunidades Autónomas conforme a sus Estatutos",
+      "C) Son competencia exclusiva de los municipios",
+      "D) Requieren una nueva ley orgánica para su atribución"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-101",
+    "enunciado": "En relación con la distribución de competencias entre el Estado y las Comunidades Autónomas, ¿cuál de las siguientes afirmaciones es correcta según la doctrina constitucional?",
+    "respuestas": [
+      "A) Las competencias exclusivas del Estado son intransferibles en todos los casos",
+      "B) El artículo 149.3 actúa como una cláusula residual a favor de las CCAA, pero su aplicación está condicionada a los Estatutos de Autonomía",
+      "C) Las CCAA pueden legislar en materia penal siempre que no contradigan la legislación estatal",
+      "D) Las competencias autonómicas del artículo 148 son obligatorias para todas las CCAA"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-3",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-102",
+    "enunciado": "Según el artículo 13 de la Ley 39/2015, los ciudadanos tienen derecho a:",
+    "respuestas": [
+      "A) Exigir indemnización por daños derivados de la Administración",
+      "B) No presentar documentos ya en poder de la Administración",
+      "C) Elegir al funcionario que tramite su expediente",
+      "D) Rechazar cualquier notificación administrativa"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-103",
+    "enunciado": "La Ley 39/2015 establece que el cómputo de plazos se realiza en:",
+    "respuestas": [
+      "A) Días naturales",
+      "B) Días hábiles, excluidos sábados, domingos y festivos",
+      "C) Semanas completas",
+      "D) Meses de 30 días"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-104",
+    "enunciado": "Según la Ley 39/2015, la ampliación de plazos en procedimientos administrativos no podrá superar:",
+    "respuestas": [
+      "A) El plazo original",
+      "B) El doble del plazo original",
+      "C) El triple del plazo original",
+      "D) Seis meses"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-105",
+    "enunciado": "El recurso de reposición, según la Ley 39/2015, debe interponerse ante:",
+    "respuestas": [
+      "A) El órgano superior jerárquico",
+      "B) El mismo órgano que dictó el acto",
+      "C) El Tribunal Superior de Justicia",
+      "D) El Defensor del Pueblo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-106",
+    "enunciado": "Según la Ley 39/2015, el plazo para interponer recurso contencioso-administrativo contra la resolución de un recurso administrativo es de:",
+    "respuestas": [
+      "A) 1 mes",
+      "B) 2 meses",
+      "C) 3 meses",
+      "D) 6 meses"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-107",
+    "enunciado": "El recurso extraordinario de revisión, regulado en la Ley 39/2015, puede interponerse por causas tasadas como error de hecho, documentos decisivos desconocidos o prevaricación. Su plazo general es de:",
+    "respuestas": [
+      "A) 1 mes",
+      "B) 3 meses",
+      "C) 4 años o 3 meses según la causa",
+      "D) 1 año"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-4",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-108",
+    "enunciado": "En relación con la iniciación del procedimiento administrativo según la Ley 39/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Las solicitudes solo pueden presentarse en el registro del órgano competente",
+      "B) Las solicitudes pueden presentarse en el registro electrónico de cualquier órgano de la AGE, CCAA o EELL, en oficinas de correos o mediante representante",
+      "C) La iniciación de oficio requiere siempre autorización judicial previa",
+      "D) Los procedimientos de oficio no pueden iniciarse sin solicitud previa del interesado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-4",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-109",
+    "enunciado": "Según la Ley 40/2015, las deliberaciones de los órganos colegiados son:",
+    "respuestas": [
+      "A) Públicas en todos los casos",
+      "B) Secretas salvo acuerdo en contrario",
+      "C) Publicadas en el Boletín Oficial",
+      "D) Grabadas y difundidas por internet"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-110",
+    "enunciado": "La avocación, regulada en el artículo 10 de la Ley 40/2015, consiste en:",
+    "respuestas": [
+      "A) Delegar la firma de un acto en otro funcionario",
+      "B) Asumir por el órgano superior la competencia de un órgano inferior",
+      "C) Encomendar la gestión de un servicio a otra entidad",
+      "D) Designar un sustituto temporal"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-111",
+    "enunciado": "Según los artículos 23 y 24 de la Ley 40/2015, los miembros de órganos administrativos deben abstenerse cuando exista parentesco hasta el grado:",
+    "respuestas": [
+      "A) Primero",
+      "B) Segundo",
+      "C) Tercero",
+      "D) Cuarto"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-112",
+    "enunciado": "Los actos anulables según el artículo 40 de la Ley 40/2015 incluyen:",
+    "respuestas": [
+      "A) Incompetencia manifiesta del órgano",
+      "B) Defecto de forma no esencial, vicio en el procedimiento o infracción de normas de derecho local",
+      "C) Objeto imposible",
+      "D) Contenido contrario a la ley"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-113",
+    "enunciado": "La encomienda de gestión, regulada en el artículo 11 de la Ley 40/2015, permite:",
+    "respuestas": [
+      "A) Transferir la titularidad de una competencia a otra Administración",
+      "B) Encomendar a otro órgano de la misma o diferente Administración la gestión de un servicio público, sin transferir la titularidad",
+      "C) Delegar la firma de actos administrativos",
+      "D) Designar personal eventual para puestos de confianza"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-114",
+    "enunciado": "Según la Ley 40/2015, los convenios de colaboración entre Administraciones requieren:",
+    "respuestas": [
+      "A) Aprobación del Pleno de la Corporación local y publicación en el Boletín oficial correspondiente",
+      "B) Solo la firma de los alcaldes implicados",
+      "C) Autorización del Ministerio de Hacienda",
+      "D) Registro en el Tribunal Constitucional"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-5",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-115",
+    "enunciado": "En relación con la conversión de actos nulos y anulables según el artículo 42 de la Ley 40/2015, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Los actos nulos pueden convertirse en anulables si se subsanan sus defectos",
+      "B) Los actos anulables pueden convertirse en válidos si se subsanan sus defectos antes de la resolución del recurso",
+      "C) Los actos nulos de pleno derecho pueden convertirse en válidos mediante acuerdo de las partes",
+      "D) La conversión solo es posible entre actos administrativos y actos de derecho privado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-5",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-116",
+    "enunciado": "Según el artículo 8 del TREBEP, los funcionarios interinos son nombrados por:",
+    "respuestas": [
+      "A) Concurso-oposición libre",
+      "B) Necesidad o urgencia, vacante no cubierta o sustitución",
+      "C) Libre designación del Ministro",
+      "D) Comisión de servicios"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-117",
+    "enunciado": "El Grupo A2 de clasificación del TREBEP requiere como titulación:",
+    "respuestas": [
+      "A) Doctor o Licenciado",
+      "B) Bachelor/Grado, Ingeniero Técnico, Arquitecto Técnico o equivalente",
+      "C) Bachiller o Técnico",
+      "D) ESO o Técnico Auxiliar"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-118",
+    "enunciado": "Según el artículo 14 del TREBEP, los empleados públicos tienen derecho a:",
+    "respuestas": [
+      "A) Incompatibilidad absoluta con cualquier actividad privada",
+      "B) Remuneración, carrera administrativa, formación, negociación colectiva y huelga",
+      "C) Jubilación anticipada sin requisitos",
+      "D) Inmunidad penal en el ejercicio de sus funciones"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-119",
+    "enunciado": "El acceso a la función pública, según el TREBEP, garantiza el principio de:",
+    "respuestas": [
+      "A) Antigüedad",
+      "B) Mérito y capacidad",
+      "C) Amistad y lealtad",
+      "D) Parentesco"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-120",
+    "enunciado": "Según el artículo 52 del TREBEP, el deber de dedicación profesional implica:",
+    "respuestas": [
+      "A) Trabajar exclusivamente en horario nocturno",
+      "B) Cumplimiento de la jornada y actualización de conocimientos",
+      "C) Renuncia a la vida privada",
+      "D) Obligación de residir en la capital de la provincia"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-121",
+    "enunciado": "El personal laboral al servicio de las Administraciones Públicas, según el TREBEP, se contrata en régimen de:",
+    "respuestas": [
+      "A) Derecho administrativo",
+      "B) Derecho laboral (fijo, temporal, indefinido no fijo)",
+      "C) Derecho mercantil",
+      "D) Derecho internacional público"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-122",
+    "enunciado": "En relación con la provisión de puestos de trabajo según el TREBEP, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Todos los puestos se proveen exclusivamente por concurso-oposición libre",
+      "B) Los puestos se pueden proveer mediante concurso-oposición libre, concurso de méritos, libre designación o comisión de servicios",
+      "C) La libre designación solo es válida para personal eventual",
+      "D) La comisión de servicios requiere oposición previa obligatoria"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-6",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-123",
+    "enunciado": "Según la Ley 53/1984, el ejercicio de la abogacía o procurador en asuntos contra la Administración de la que dependa el empleado público constituye:",
+    "respuestas": [
+      "A) Una compatibilidad automática",
+      "B) Una incompatibilidad absoluta",
+      "C) Una incompatibilidad relativa",
+      "D) Una actividad permitida sin autorización"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-124",
+    "enunciado": "Las incompatibilidades relativas según el artículo 7 de la Ley 53/1984 requieren:",
+    "respuestas": [
+      "A) Renuncia al empleo público",
+      "B) Autorización previa, siempre que no supongan menoscabo de la independencia o infracción del deber de dedicación",
+      "C) Pago de una tasa administrativa",
+      "D) Concurso-oposición específica"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-125",
+    "enunciado": "Según la Ley 53/1984, los altos cargos deben declarar sus bienes y actividades:",
+    "respuestas": [
+      "A) Solo al tomar posesión",
+      "B) Al tomar posesión y al cesar",
+      "C) Anualmente durante su mandato",
+      "D) Solo si superan un valor de 500.000 euros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-126",
+    "enunciado": "La Ley 53/1984 se aplica a:",
+    "respuestas": [
+      "A) Solo funcionarios de carrera",
+      "B) Funcionarios, personal laboral, personal eventual y altos cargos",
+      "C) Solo altos cargos del Estado",
+      "D) Únicamente empleados de la Administración General del Estado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-127",
+    "enunciado": "Según la Ley 53/1984, la autorización para compatibilizar actividades privadas la concede:",
+    "respuestas": [
+      "A) El Presidente del Gobierno",
+      "B) El Ministro o titular del órgano competente",
+      "C) El Tribunal Constitucional",
+      "D) El Defensor del Pueblo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-128",
+    "enunciado": "En materia de incompatibilidades relativas, la Ley 53/1984 establece que NO se autorizará cuando la actividad privada se ejerza:",
+    "respuestas": [
+      "A) En horario nocturno",
+      "B) En el mismo ámbito territorial y materia que la pública",
+      "C) En el extranjero",
+      "D) Durante más de 10 horas semanales"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-129",
+    "enunciado": "Respecto a las incompatibilidades de los altos cargos según la Ley 53/1984, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Los altos cargos pueden desempeñar actividades privadas retribuidas durante su mandato si obtienen autorización",
+      "B) Los altos cargos no pueden desempeñar actividades privadas retribuidas durante su mandato ni en los dos años siguientes a su cese en el mismo ámbito materia y territorio",
+      "C) La incompatibilidad post-cese solo aplica a altos cargos del poder judicial",
+      "D) Los altos cargos están exentos de declarar bienes si su patrimonio es inferior a 100.000 euros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-7",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-130",
+    "enunciado": "La Ley 19/2013 se aplica, entre otros, a:",
+    "respuestas": [
+      "A) Solo a la Administración General del Estado",
+      "B) A la AGE, CCAA, EELL, universidades públicas, Fuerzas y Cuerpos de Seguridad y entidades públicas dependientes",
+      "C) Únicamente a entidades privadas",
+      "D) Solo a organismos internacionales"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-131",
+    "enunciado": "Según el artículo 6 de la Ley 19/2013, la publicidad activa debe realizarse en:",
+    "respuestas": [
+      "A) El Boletín Oficial del Estado únicamente",
+      "B) Los portales web de las Administraciones de forma reutilizable",
+      "C) Los tablones de anuncios de cada ministerio",
+      "D) La prensa escrita nacional"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-132",
+    "enunciado": "La información que debe facilitarse según la Ley 19/2013 debe ser:",
+    "respuestas": [
+      "A) Solo informativa general",
+      "B) Clara, completa, precisa, actual y veraz",
+      "C) Resumida y simplificada",
+      "D) Solo en formato papel"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-133",
+    "enunciado": "Según el artículo 14 de la Ley 19/2013, NO se facilitará información que afecte a:",
+    "respuestas": [
+      "A) Los presupuestos generales del Estado",
+      "B) La seguridad nacional, defensa, relaciones internacionales, orden público y protección de datos personales",
+      "C) Las subvenciones públicas",
+      "D) Los contratos menores"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-134",
+    "enunciado": "La reutilización de la información del sector público según la Ley 19/2013 se facilita:",
+    "respuestas": [
+      "A) Solo a entidades públicas",
+      "B) En condiciones no discriminatorias y por precios marginales",
+      "C) Exclusivamente mediante concurso público",
+      "D) Solo para fines comerciales autorizados"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-135",
+    "enunciado": "Según la Ley 19/2013, en materia de reutilización de información se excluye:",
+    "respuestas": [
+      "A) Los datos estadísticos",
+      "B) El software, los documentos en poder de organismos de radiodifusión y las instituciones culturales",
+      "C) La normativa jurídica",
+      "D) Los informes de gestión"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-136",
+    "enunciado": "En relación con el acceso a la información pública regulado en la Ley 19/2013, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Solo los ciudadanos españoles tienen derecho a solicitar información",
+      "B) Toda persona tiene derecho a solicitar y obtener información de cualquier órgano de la Administración Pública, y el silencio administrativo es estimatorio",
+      "C) El plazo de resolución es de 3 meses",
+      "D) La información solicitada debe pagarse siempre con una tasa de 50 euros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-8",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-137",
+    "enunciado": "Según el artículo 15 de la Ley 31/1995, el principio de \"combatir los riesgos en su origen\" ocupa el lugar número:",
+    "respuestas": [
+      "A) Primero",
+      "B) Segundo",
+      "C) Tercero",
+      "D) Cuarto"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-138",
+    "enunciado": "La Ley 31/1995 se aplica a:",
+    "respuestas": [
+      "A) Solo al sector privado",
+      "B) Todos los sectores de actividad pública y privada",
+      "C) Solo a empresas de más de 50 trabajadores",
+      "D) Únicamente a la construcción y minería"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-139",
+    "enunciado": "Según la Ley 31/1995, el empresario debe designar trabajadores con funciones de prevención o:",
+    "respuestas": [
+      "A) Contratar servicios de prevención ajena",
+      "B) Designar a un familiar del empresario",
+      "C) Nombrar un delegado sindical",
+      "D) Solicitar autorización al Ministerio de Trabajo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-9",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-140",
+    "enunciado": "El artículo 15 de la Ley 31/1995 establece que se deben adoptar medidas prioritarias de protección:",
+    "respuestas": [
+      "A) Individual frente a la colectiva",
+      "B) Colectiva frente a la individual",
+      "C) Solo para trabajadores mayores de 55 años",
+      "D) Exclusivamente para trabajadores con contrato indefinido"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-141",
+    "enunciado": "En relación con las infracciones y sanciones de la Ley 31/1995, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Solo existen infracciones leves y graves",
+      "B) Las sanciones económicas son proporcionales a la naturaleza de la infracción y al número de trabajadores afectados, existiendo infracciones leves, graves y muy graves",
+      "C) Las sanciones solo pueden ser de carácter penal",
+      "D) El empresario está exento de sanciones si contrata un servicio de prevención ajena"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-142",
+    "enunciado": "Según la Ley 31/1995, el derecho de los trabajadores a interrumpir la actividad ante situaciones de riesgo grave e inminente implica:",
+    "respuestas": [
+      "A) Que el trabajador puede abandonar el puesto sin comunicarlo",
+      "B) Que el trabajador debe informar inmediatamente a su superior jerárquico y no puede ser sancionado por ello",
+      "C) Que solo los delegados de prevención pueden interrumpir la actividad",
+      "D) Que el empresario puede despedir al trabajador que interrumpa la actividad"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-9",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-143",
+    "enunciado": "Según la Ley Orgánica 3/2007, las Administraciones Públicas deben fomentar la presencia equilibrada de mujeres y hombres en:",
+    "respuestas": [
+      "A) Los órganos colegiados y puestos de responsabilidad",
+      "B) Únicamente en los puestos técnicos",
+      "C) Solo en la administración local",
+      "D) Los centros educativos"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-144",
+    "enunciado": "El Instituto de la Mujer y para la Igualdad de Oportunidades es el órgano encargado de:",
+    "respuestas": [
+      "A) Juzgar casos de violencia de género",
+      "B) Impulsar, ejecutar y evaluar las políticas de igualdad",
+      "C) Sancionar a empresas sin plan de igualdad",
+      "D) Nombrar a los miembros de la Comisión Interministerial"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-145",
+    "enunciado": "Según la Ley Orgánica 3/2007, el derecho a la adaptación de la jornada y a la reducción por guarda legal se refiere a:",
+    "respuestas": [
+      "A) Menores o personas dependientes a cargo del trabajador",
+      "B) Solo a hijos menores de 3 años",
+      "C) Únicamente a personas con discapacidad",
+      "D) Solo a familias numerosas"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-10",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-146",
+    "enunciado": "La Comisión Interministerial para la Igualdad de Mujeres y Hombres, según la Ley Orgánica 3/2007, tiene como función:",
+    "respuestas": [
+      "A) Sancionar infracciones por discriminación",
+      "B) Coordinar las políticas de igualdad",
+      "C) Dictar sentencias en materia de violencia de género",
+      "D) Gestionar el presupuesto del Instituto de la Mujer"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-147",
+    "enunciado": "En relación con los planes de igualdad de la Ley Orgánica 3/2007, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Son obligatorios en todas las empresas, independientemente de su tamaño",
+      "B) Son obligatorios en empresas de más de 250 trabajadores y deben incluir medidas para evitar la discriminación por razón de sexo",
+      "C) Solo son recomendables y no tienen carácter obligatorio",
+      "D) Son obligatorios solo en el sector público"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-148",
+    "enunciado": "La Ley Orgánica 3/2007, en relación con el Estatuto de los Trabajadores, establece la prohibición de despido por razón de:",
+    "respuestas": [
+      "A) Solo por razón de sexo",
+      "B) Sexo, estado civil, edad, origen racial o étnico, discapacidad, orientación sexual, etc.",
+      "C) Únicamente por razón de edad",
+      "D) Solo por razón de discapacidad"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-10",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-149",
+    "enunciado": "La Ley Orgánica 3/2018 adapta el ordenamiento jurídico español al:",
+    "respuestas": [
+      "A) Reglamento (UE) 2016/679 (GDPR)",
+      "B) Directiva 95/46/CE",
+      "C) Convenio 108 del Consejo de Europa",
+      "D) Reglamento (UE) 2018/1725"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-150",
+    "enunciado": "Según el artículo 4 de la Ley Orgánica 3/2018, el principio de minimización de datos establece que los datos deben ser:",
+    "respuestas": [
+      "A) Ilimitados en cantidad",
+      "B) Adecuados, pertinentes y limitados a lo necesario",
+      "C) Conservados indefinidamente",
+      "D) Compartidos con todas las Administraciones"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-151",
+    "enunciado": "El derecho de portabilidad de los datos, reconocido en la Ley Orgánica 3/2018, permite al interesado:",
+    "respuestas": [
+      "A) Solicitar la supresión total de sus datos",
+      "B) Recibir los datos en un formato estructurado y transmitirlos a otro responsable",
+      "C) Oponerse al tratamiento en todos los casos",
+      "D) Modificar los datos de otros interesados"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-152",
+    "enunciado": "Según la Ley Orgánica 3/2018, el encargado del tratamiento:",
+    "respuestas": [
+      "A) Determina los fines y medios del tratamiento",
+      "B) Trata datos por cuenta del responsable",
+      "C) Es el titular de los datos personales",
+      "D) Designa al Delegado de Protección de Datos"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-153",
+    "enunciado": "En relación con el Delegado de Protección de Datos (DPD) según la Ley Orgánica 3/2018, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Es obligatorio en todas las empresas que traten datos personales",
+      "B) Es obligatorio en autoridades y organismos públicos, salvo cuando las funciones son compatibles con las del responsable por su naturaleza, ámbito y finalidades",
+      "C) Solo es obligatorio en entidades bancarias y aseguradoras",
+      "D) El DPD debe ser siempre un abogado colegiado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-154",
+    "enunciado": "Según la Ley Orgánica 3/2018, las decisiones individuales automatizadas, incluida la elaboración de perfiles:",
+    "respuestas": [
+      "A) Están permitidas sin limitación alguna",
+      "B) El interesado tiene derecho a no ser objeto de ellas, salvo en ciertos supuestos previstos por la ley",
+      "C) Solo afectan a datos de menores de edad",
+      "D) Son obligatorias para todos los tratamientos del sector público"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-11",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-155",
+    "enunciado": "El TRLHL (RD Leg. 2/2004) se compone de:",
+    "respuestas": [
+      "A) Dos libros",
+      "B) Tres libros: Régimen financiero, Tributos locales y Régimen de eficacia tributaria",
+      "C) Cuatro libros",
+      "D) Cinco libros"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-156",
+    "enunciado": "El tipo de gravamen máximo del IBI para inmuebles rústicos, según el TRLHL, es del:",
+    "respuestas": [
+      "A) 0,5%",
+      "B) 0,9%",
+      "C) 1,1%",
+      "D) 1,5%"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-157",
+    "enunciado": "Según el TRLHL, los precios públicos son ingresos derivados de:",
+    "respuestas": [
+      "A) La prestación de servicios públicos obligatorios",
+      "B) La prestación de servicios o actividades de competencia local cuando la Ley no exija su prestación gratuita ni su sujeción a tasas",
+      "C) La recaudación de impuestos locales",
+      "D) Las transferencias del Estado"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-158",
+    "enunciado": "El Impuesto sobre Actividades Económicas (IAE), según el TRLHL, gestiona:",
+    "respuestas": [
+      "A) El Ministerio de Hacienda",
+      "B) El Ayuntamiento donde se ejerza la actividad",
+      "C) La Diputación Provincial",
+      "D) La Comunidad Autónoma"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "media",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-159",
+    "enunciado": "En relación con las tasas reguladas en el TRLHL, ¿cuál de las siguientes afirmaciones es correcta?",
+    "respuestas": [
+      "A) Las tasas pueden exigirse por servicios no prestados efectivamente",
+      "B) Requieren prestación efectiva, solicitud o recepción voluntaria, y que no estén sujetas a precio público",
+      "C) Las tasas son obligatorias para todos los ciudadanos del municipio",
+      "D) Las tasas solo pueden aplicarse a servicios de competencia estatal"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "id": "preg-160",
+    "enunciado": "Según el TRLHL, las bonificaciones del IBI pueden aplicarse por:",
+    "respuestas": [
+      "A) Solo por antigüedad del inmueble",
+      "B) Familia numerosa, discapacidad e instalación de sistemas de ahorro energético",
+      "C) Únicamente por renta del titular",
+      "D) Solo para inmuebles de nueva construcción"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-12",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "HLS utiliza listas de reproducción con extensión:",
+    "respuestas": [
+      "A) .mpd",
+      "B) .m3u8",
+      "C) .xml",
+      "D) .json"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-161",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "DASH es un estándar de streaming desarrollado por:",
+    "respuestas": [
+      "A) Apple",
+      "B) MPEG/ISO",
+      "C) Adobe",
+      "D) Microsoft"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-162",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "RTMP fue desarrollado originalmente por:",
+    "respuestas": [
+      "A) Apple",
+      "B) Adobe",
+      "C) Microsoft",
+      "D) Google"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-163",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "SRT fue desarrollado por:",
+    "respuestas": [
+      "A) Apple",
+      "B) Haivision",
+      "C) Netflix",
+      "D) Google"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-164",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "WebRTC permite comunicación peer-to-peer con latencia típica de:",
+    "respuestas": [
+      "A) 3-5 segundos",
+      "B) menos de 500 milisegundos",
+      "C) 10-15 segundos",
+      "D) 1-2 segundos"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-165",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Un edge server en una CDN está ubicado:",
+    "respuestas": [
+      "A) en la sede central del proveedor",
+      "B) cercano al usuario final",
+      "C) en el centro de datos del cliente",
+      "D) en satélites"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-166",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El origin server es:",
+    "respuestas": [
+      "A) el servidor más cercano al usuario",
+      "B) el servidor fuente donde reside el contenido original",
+      "C) un balanceador de carga",
+      "D) un codificador"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "basico",
+    "id": "preg-167",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Low-Latency HLS tiene latencia de:",
+    "respuestas": [
+      "A) menos de 100 ms",
+      "B) 2-3 segundos",
+      "C) 8-10 segundos",
+      "D) 30 segundos"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-168",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "SRT utiliza ARQ para:",
+    "respuestas": [
+      "A) comprimir video",
+      "B) recuperar pérdidas de paquetes en la red",
+      "C) cifrar el contenido",
+      "D) sincronizar audio"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-169",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El cifrado en SRT utiliza:",
+    "respuestas": [
+      "A) AES-128 o AES-256",
+      "B) DES-56",
+      "C) RSA-1024",
+      "D) sin cifrado"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-170",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "WebRTC utiliza generalmente el codec de audio:",
+    "respuestas": [
+      "A) AAC",
+      "B) Opus",
+      "C) MP3",
+      "D) FLAC"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-171",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La latencia de WebRTC es menor que la de HLS porque:",
+    "respuestas": [
+      "A) usa compresión más agresiva",
+      "B) usa comunicación peer-to-peer sin segmentación de archivos",
+      "C) usa servidores más rápidos",
+      "D) usa menos ancho de banda"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-172",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El protocolo RTMP en la actualidad está siendo reemplazado en distribución por:",
+    "respuestas": [
+      "A) HLS y DASH",
+      "B) SRT y WebRTC",
+      "C) FTP y HTTP",
+      "D) SMTP y POP3"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-173",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "SRT es especialmente útil para:",
+    "respuestas": [
+      "A) distribución masiva a millones de espectadores",
+      "B) contribución remota con baja latencia y redes inestables",
+      "C) almacenamiento de archivos RAW",
+      "D) edición colaborativa en la nube"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-174",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La principal ventaja de DASH sobre HLS es:",
+    "respuestas": [
+      "A) ser exclusivo de Apple",
+      "B) ser un estándar abierto no propietario",
+      "C) usar menos ancho de banda",
+      "D) tener menor latencia siempre"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "media",
+    "id": "preg-175",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "WebRTC no es ideal para distribución masiva porque:",
+    "respuestas": [
+      "A) no soporta video",
+      "B) requiere infraestructura peer-to-peer compleja para muchos espectadores",
+      "C) no tiene cifrado",
+      "D) solo funciona en Safari"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "id": "preg-176",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El estándar ISO/IEC 23009-1 corresponde a:",
+    "respuestas": [
+      "A) HLS",
+      "B) DASH",
+      "C) RTMP",
+      "D) SRT"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "id": "preg-177",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En LL-HLS (Low-Latency HLS), los segmentos son más:",
+    "respuestas": [
+      "A) largos",
+      "B) cortos (partes o partial segments)",
+      "C) comprimidos",
+      "D) pesados"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "id": "preg-178",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En WebRTC, la señalización se encarga de:",
+    "respuestas": [
+      "A) comprimir el video",
+      "B) intercambiar metadatos de conexión entre peers antes del enlace directo",
+      "C) cifrar el contenido",
+      "D) sincronizar el audio"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "id": "preg-179",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Los segmentos fMP4 en HLS utilizan la extensión:",
+    "respuestas": [
+      "A) .ts",
+      "B) .m4s",
+      "C) .mp3",
+      "D) .aac"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-23",
+    "dificultad": "avanzado",
+    "id": "preg-180",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La fase de preproducción en un evento audiovisual NO incluye:",
+    "respuestas": [
+      "A) briefing con el cliente",
+      "B) montaje de equipos en el venue",
+      "C) presupuesto y planificación",
+      "D) recce técnico del espacio"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-181",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El rider técnico de un artista especifica:",
+    "respuestas": [
+      "A) la biografía del artista",
+      "B) los requerimientos técnicos de sonido, luces, video y escenario",
+      "C) el contrato de exclusividad",
+      "D) la lista de invitados"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-182",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En realización multicámara, el director indica al switcher qué cámara poner al aire mediante:",
+    "respuestas": [
+      "A) el intercom",
+      "B) señales de tally",
+      "C) el CCU",
+      "D) el encoder"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-183",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La CCU (Camera Control Unit) permite ajustar remotamente:",
+    "respuestas": [
+      "A) solo el zoom",
+      "B) iris, blanco, negro, ganancia y shading",
+      "C) la posición física de la cámara",
+      "D) el formato de grabación"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-184",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El encoder OBS Studio es:",
+    "respuestas": [
+      "A) hardware profesional",
+      "B) software gratuito de codificación y streaming",
+      "C) un protocolo de red",
+      "D) una cámara IP"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-185",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El desmontaje y archivo de material en un evento pertenecen a:",
+    "respuestas": [
+      "A) preproducción",
+      "B) producción",
+      "C) postproducción",
+      "D) distribución"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-186",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El runsheet detalla minuto a minuto:",
+    "respuestas": [
+      "A) el guion del presentador",
+      "B) el horario de montaje, ensayos, evento y desmontaje",
+      "C) la lista de contratos",
+      "D) el presupuesto final"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "basico",
+    "id": "preg-187",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El patch list asigna:",
+    "respuestas": [
+      "A) canales de entrada de la mesa a fuentes concretas (micros, DI, etc.)",
+      "B) posiciones de focos en el escenario",
+      "C) horarios de los técnicos",
+      "D) frecuencias de radio"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-188",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En streaming de eventos, el bonding de 4G/5G consiste en:",
+    "respuestas": [
+      "A) usar una única tarjeta SIM",
+      "B) combinar múltiples conexiones celulares para mayor ancho de banda",
+      "C) comprimir el video en H.265",
+      "D) cifrar el stream con AES-128"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-189",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La CDN Vimeo en streaming se utiliza para:",
+    "respuestas": [
+      "A) capturar video en RAW",
+      "B) alojar y distribuir contenido video a escala global",
+      "C) editar video colaborativo",
+      "D) controlar cámaras remotamente"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-190",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En una realización multicámara, el chroma key en el switcher permite:",
+    "respuestas": [
+      "A) ajustar el balance de blancos",
+      "B) sustituir un color (verde/azul) por otra imagen",
+      "C) grabar en formato RAW",
+      "D) controlar el audio"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-191",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El sistema Clear-Com en intercom utiliza generalmente:",
+    "respuestas": [
+      "A) conexión IP o cableado de par trenzado",
+      "B) solo conexión Bluetooth",
+      "C) fibra óptica exclusiva",
+      "D) satélite"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-192",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La señal tally verde en una cámara indica:",
+    "respuestas": [
+      "A) que está al aire",
+      "B) que está en preview/cabecera",
+      "C) que está apagada",
+      "D) que tiene batería baja"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-193",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El recce técnico permite al equipo de producción:",
+    "respuestas": [
+      "A) conocer las condiciones del espacio, accesos, puntos de rigging y consumos eléctricos",
+      "B) firmar el contrato definitivo",
+      "C) realizar el montaje final",
+      "D) emitir el stream de prueba"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-194",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Un encoder hardware LiveU se diferencia de OBS Studio porque:",
+    "respuestas": [
+      "A) es gratuito y de código abierto",
+      "B) está diseñado para transmisión móvil con bonding celular integrado",
+      "C) solo funciona en Windows",
+      "D) no permite streaming"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "media",
+    "id": "preg-195",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El switcher Ross Carbonite es un ejemplo de:",
+    "respuestas": [
+      "A) software de edición no lineal",
+      "B) vision mixer para broadcast",
+      "C) codificador de streaming",
+      "D) procesador de audio DSP"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "avanzado",
+    "id": "preg-196",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En producción de eventos, el backline se refiere a:",
+    "respuestas": [
+      "A) el equipo de iluminación trasero",
+      "B) los equipos de audio del artista (amplis, batería, etc.)",
+      "C) la pantalla LED de fondo",
+      "D) el cableado de red"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "avanzado",
+    "id": "preg-197",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La unidad CCU en cámaras broadcast se conecta generalmente mediante:",
+    "respuestas": [
+      "A) HDMI",
+      "B) fibra óptica o cable coaxial multipar",
+      "C) USB",
+      "D) Wi-Fi"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "avanzado",
+    "id": "preg-198",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El sistema Riedel Bolero es un ejemplo de:",
+    "respuestas": [
+      "A) intercom inalámbrico sobre IP para producción de eventos",
+      "B) software de edición de video",
+      "C) codec de compresión",
+      "D) proyector láser"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-21",
+    "dificultad": "avanzado",
+    "id": "preg-199",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En streaming, la latencia medida como \"glass to glass\" es:",
+    "respuestas": [
+      "A) el tiempo desde que se graba hasta que se edita",
+      "B) el tiempo desde la captura de la cámara hasta la visualización del espectador",
+      "C) el tiempo de codificación únicamente",
+      "D) el tiempo de transmisión por satélite"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-21",
+    "dificultad": "avanzado",
+    "id": "preg-200",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El plano americano (PA) muestra al sujeto:",
+    "respuestas": [
+      "A) de cuerpo entero",
+      "B) de la rodilla para arriba",
+      "C) de la cintura para arriba",
+      "D) solo la cara"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "id": "preg-201",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La voz en off pertenece a la categoría de:",
+    "respuestas": [
+      "A) sonido directo",
+      "B) sonido indirecto",
+      "C) ruido ambiental",
+      "D) música diegética"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "id": "preg-202",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El sensor CCD se caracteriza por:",
+    "respuestas": [
+      "A) bajo consumo y rolling shutter",
+      "B) alta sensibilidad, bajo ruido, consumo elevado",
+      "C) ser exclusivo de cámaras de fotografía",
+      "D) no requerir óptica"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "id": "preg-203",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Los micrófonos condensador requieren alimentación:",
+    "respuestas": [
+      "A) phantom +48V o batería",
+      "B) solo batería de 9V",
+      "C) no requieren alimentación externa",
+      "D) solo USB"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "id": "preg-204",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La temperatura de color de 5.600K corresponde a:",
+    "respuestas": [
+      "A) luz de vela",
+      "B) luz de tungsteno de estudio",
+      "C) luz de día estándar (daylight)",
+      "D) luz de día nublada"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "id": "preg-205",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El codec H.265/HEVC ofrece aproximadamente un ahorro de bitrate del:",
+    "respuestas": [
+      "A) 10% respecto a H.264",
+      "B) 25% respecto a H.264",
+      "C) 50% respecto a H.264",
+      "D) 75% respecto a H.264"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-22",
+    "dificultad": "basico",
+    "id": "preg-206",
+    "tipo": "memoristica",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "En el modelo de Shannon-Weaver, el \"ruido\" se define como:",
+    "respuestas": [
+      "A) una señal intencionada del emisor",
+      "B) interferencia en la transmisión",
+      "C) el código utilizado",
+      "D) la retroalimentación del receptor"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "media",
+    "id": "preg-207",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El encuadre diagonal en lenguaje audiovisual aporta:",
+    "respuestas": [
+      "A) estabilidad y equilibrio",
+      "B) dinamismo y tensión",
+      "C) neutralidad",
+      "D) simetría"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "media",
+    "id": "preg-208",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La montura PL (Positive Lock) es estándar en:",
+    "respuestas": [
+      "A) fotografía amateur",
+      "B) cine profesional",
+      "C) videoconferencia",
+      "D) drones de consumo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-14",
+    "dificultad": "media",
+    "id": "preg-209",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El global shutter en sensores CMOS permite:",
+    "respuestas": [
+      "A) mayor resolución",
+      "B) lectura simultánea de todo el sensor sin distorsión en movimiento",
+      "C) menor consumo energético",
+      "D) mayor sensibilidad ISO"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-14",
+    "dificultad": "media",
+    "id": "preg-210",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El patrón polar hipercardioide se caracteriza por:",
+    "respuestas": [
+      "A) sensibilidad de 360°",
+      "B) máxima sensibilidad frontal con lóbulo posterior reducido",
+      "C) sensibilidad frontal y posterior",
+      "D) sensibilidad exclusivamente lateral"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-15",
+    "dificultad": "media",
+    "id": "preg-211",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El micrófono de cañón (shotgun) utiliza:",
+    "respuestas": [
+      "A) una cápsula grande de diafragma",
+      "B) interferometría acústica para alta direccionalidad",
+      "C) patrón omnidireccional",
+      "D) conexión inalámbrica obligatoria"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-15",
+    "dificultad": "media",
+    "id": "preg-212",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El CRI (Color Rendering Index) mide:",
+    "respuestas": [
+      "A) la temperatura de color",
+      "B) la fidelidad de reproducción cromática",
+      "C) el brillo en lúmenes",
+      "D) el consumo energético"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-16",
+    "dificultad": "media",
+    "id": "preg-213",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El filtro CTO (Color Temperature Orange) se utiliza para:",
+    "respuestas": [
+      "A) convertir luz de día en luz de tungsteno",
+      "B) convertir luz de tungsteno en luz de día",
+      "C) aumentar el contraste",
+      "D) reducir la exposición"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "media",
+    "id": "preg-214",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "Adobe Premiere Pro utiliza un sistema de edición basado en:",
+    "respuestas": [
+      "A) magnetic timeline",
+      "B) timeline tradicional con pistas",
+      "C) nodos de composición",
+      "D) storyboard exclusivo"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-17",
+    "dificultad": "media",
+    "id": "preg-215",
+    "tipo": "comprension",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El montaje ideológico de Eisenstein genera significado mediante:",
+    "respuestas": [
+      "A) la continuidad temporal",
+      "B) la yuxtaposición de planos",
+      "C) el plano secuencia",
+      "D) la cámara lenta"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-13",
+    "dificultad": "avanzado",
+    "id": "preg-216",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "La relación imagen-sonido contrapuntística significa:",
+    "respuestas": [
+      "A) sonido e imagen coinciden",
+      "B) sonido e imagen son independientes",
+      "C) sonido e imagen se contradicen en significado",
+      "D) no hay sonido"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-13",
+    "dificultad": "avanzado",
+    "id": "preg-217",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El 12G-SDI permite transportar señal:",
+    "respuestas": [
+      "A) 1080p60",
+      "B) 4K30",
+      "C) 4K60/8K30",
+      "D) 8K120"
+    ],
+    "respuesta_correcta": "C",
+    "tema_id": "tema-14",
+    "dificultad": "avanzado",
+    "id": "preg-218",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El limitador en masterización para broadcast debe mantener el true peak por debajo de:",
+    "respuestas": [
+      "A) 0 dBTP",
+      "B) -1 dBTP",
+      "C) -14 LUFS",
+      "D) -23 LUFS"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-18",
+    "dificultad": "avanzado",
+    "id": "preg-219",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  },
+  {
+    "enunciado": "El matchmoving permite:",
+    "respuestas": [
+      "A) cambiar el formato de video",
+      "B) reconstruir la trayectoria de cámara real para integrar CG",
+      "C) sincronizar audio con video",
+      "D) corregir el balance de blancos"
+    ],
+    "respuesta_correcta": "B",
+    "tema_id": "tema-19",
+    "dificultad": "avanzado",
+    "id": "preg-220",
+    "tipo": "aplicacion",
+    "explicacion": ""
+  }
+]
