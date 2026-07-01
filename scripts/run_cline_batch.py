@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Guarda config, cambia a openai/deepseek-v4-flash, ejecuta comando, restaura."""
+"""Guarda config, cambia a openai/deepseek-v4-flash-free, ejecuta comando, restaura."""
 import json, sys, os, subprocess, time, shutil
 
 GLOBAL_STATE = "/home/roberto/.cline/data/globalState.json"
@@ -12,14 +12,14 @@ def main():
     with open(GLOBAL_STATE) as f:
         cfg = json.load(f)
     
-    # 2. Set openai + deepseek-v4-flash
+    # 2. Set openai + deepseek-v4-flash-free
     cfg["actModeApiProvider"] = "openai"
     cfg["planModeApiProvider"] = "openai"
     cfg["planActSeparateModelsSetting"] = True
-    cfg["actModeApiModelId"] = "deepseek-v4-flash"
-    cfg["planModeApiModelId"] = "deepseek-v4-flash"
-    cfg["actModeOpenAiModelId"] = "deepseek-v4-flash"
-    cfg["planModeOpenAiModelId"] = "deepseek-v4-flash"
+    cfg["actModeApiModelId"] = "deepseek-v4-flash-free"
+    cfg["planModeApiModelId"] = "deepseek-v4-flash-free"
+    cfg["actModeOpenAiModelId"] = "deepseek-v4-flash-free"
+    cfg["planModeOpenAiModelId"] = "deepseek-v4-flash-free"
     cfg["requestTimeoutMs"] = 120000  # 2 min timeout
     
     with open(GLOBAL_STATE, 'w') as f:
