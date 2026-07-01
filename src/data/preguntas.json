@@ -7300,5 +7300,2015 @@
     ],
     "respuesta_correcta": "B",
     "explicacion": "El uso de fragmentos de película comercial requiere autorización (el derecho de cita no cubre comunicación pública completa). La música necesita licencia del autor. La licencia CC BY-NC no permite uso comercial (TV/YouTube con monetización). Las imágenes propias son de la Diputación."
+  },
+  {
+    "id": "preg-581",
+    "enunciado": "¿Qué modelo de comunicación introdujo en 1949 el concepto de 'ruido' como interferencia en la transmisión del mensaje?",
+    "respuestas": [
+      "A) El modelo de Shannon-Weaver",
+      "B) El modelo de Lasswell",
+      "C) El modelo de Jakobson",
+      "D) El modelo de Schramm"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El modelo de Shannon-Weaver (1949) introduce el concepto de ruido como interferencia en la transmisión del mensaje."
+  },
+  {
+    "id": "preg-582",
+    "enunciado": "En la escala de planos cinematográficos, ¿cómo se abrevia habitualmente el plano americano?",
+    "respuestas": [
+      "A) PA",
+      "B) PM",
+      "C) PG",
+      "D) PPP"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La escala clásica se abrevia: PG (plano general), PA (plano americano), PM (plano medio), PP (primer plano), PPP (primerísimo primer plano) y plano detalle."
+  },
+  {
+    "id": "preg-583",
+    "enunciado": "¿Qué tipo de montaje, asociado a Eisenstein, genera significado por yuxtaposición de planos?",
+    "respuestas": [
+      "A) El montaje ideológico",
+      "B) El montaje de continuidad",
+      "C) El montaje analítico",
+      "D) El montaje secuencial"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El montaje ideológico (Eisenstein) crea significado mediante la yuxtaposición de imágenes; el clásico o de continuidad busca la invisibilidad de la técnica."
+  },
+  {
+    "id": "preg-584",
+    "enunciado": "¿Qué ángulo de cámara sitúa el punto de vista completamente vertical sobre el sujeto, mirando hacia abajo?",
+    "respuestas": [
+      "A) Cenital",
+      "B) Contrapicado",
+      "C) Picado",
+      "D) Normal"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El ángulo cenital es perpendicular al suelo desde arriba; el picado es oblicuo descendente y el contrapicado asciende desde abajo."
+  },
+  {
+    "id": "preg-585",
+    "enunciado": "En el lenguaje audiovisual, los signos que mantienen semejanza directa con lo representado (como la imagen) se denominan:",
+    "respuestas": [
+      "A) Icónicos",
+      "B) Indexicales",
+      "C) Simbólicos",
+      "D) Arbitrarios"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El lenguaje audiovisual combina signos icónicos (imagen), indexicales (sonido ambiental) y simbólicos (texto, símbolos)."
+  },
+  {
+    "id": "preg-586",
+    "enunciado": "¿Cuál de las siguientes transiciones NO es propia del control del ritmo en el montaje audiovisual?",
+    "respuestas": [
+      "A) El barrido de frecuencias",
+      "B) El fundido",
+      "C) La disolución",
+      "D) La cortinilla"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Las transiciones clásicas son corte, fundido, disolución y cortinilla; el 'barrido de frecuencias' es un concepto de audio, no una transición visual."
+  },
+  {
+    "id": "preg-587",
+    "enunciado": "¿Qué diferencia esencial existe entre el montaje clásico de continuidad y el montaje ideológico?",
+    "respuestas": [
+      "A) El primero oculta la técnica para que la narración fluya; el segundo evidencia el choque entre planos para generar ideas",
+      "B) El primero usa planos largos y el segundo exige rodar en estudio",
+      "C) El primero es exclusivo del cine mudo y el segundo del sonoro",
+      "D) No hay diferencia: son dos nombres de la misma técnica"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El montaje de continuidad prioriza la invisibilidad de la técnica; el ideológico (Eisenstein) genera significado por yuxtaposición, haciendo perceptible el montaje."
+  },
+  {
+    "id": "preg-588",
+    "enunciado": "¿Por qué un contrapicado tiende a engrandecer al sujeto ante el espectador?",
+    "respuestas": [
+      "A) Porque la cámara mira desde abajo y el sujeto domina el encuadre, connotando poder",
+      "B) Porque acerca físicamente la cámara al sujeto",
+      "C) Porque aumenta la profundidad de campo",
+      "D) Porque obliga a usar objetivos teleobjetivo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El ángulo de cámara aporta significado narrativo: el contrapicado magnifica al sujeto (poder, dominio) y el picado lo empequeñece (vulnerabilidad)."
+  },
+  {
+    "id": "preg-589",
+    "enunciado": "En el proceso comunicativo audiovisual, el 'feedback' se refiere a:",
+    "respuestas": [
+      "A) La respuesta del receptor que permite al emisor ajustar el mensaje",
+      "B) La amplificación de la señal sonora",
+      "C) El ruido introducido por el canal",
+      "D) La codificación del mensaje en señales"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El feedback o retroalimentación es la respuesta del receptor, que cierra el circuito comunicativo junto a emisor, mensaje, código, canal y receptor."
+  },
+  {
+    "id": "preg-590",
+    "enunciado": "El ritmo de una pieza audiovisual se controla principalmente mediante:",
+    "respuestas": [
+      "A) La duración de los planos, las transiciones y la continuidad espacio-temporal",
+      "B) Únicamente la banda sonora musical",
+      "C) El tamaño del sensor de la cámara",
+      "D) El formato de exportación final"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Según el temario, el ritmo se controla con la duración de los planos, las transiciones (corte, fundido, disolución, cortinilla) y la continuidad espacial-temporal."
+  },
+  {
+    "id": "preg-591",
+    "enunciado": "Estás grabando una entrevista institucional para la Diputación y necesitas un plano que muestre al entrevistado desde las rodillas hacia arriba. ¿Qué plano eliges?",
+    "respuestas": [
+      "A) Plano americano",
+      "B) Plano detalle",
+      "C) Primerísimo primer plano",
+      "D) Plano general"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El plano americano (PA) corta aproximadamente a la altura de las rodillas; nació en el western para mostrar el revólver en la cadera."
+  },
+  {
+    "id": "preg-592",
+    "enunciado": "En un vídeo promocional quieres alternar imágenes de dos actos que ocurren a la vez en dos salas del palacio provincial. ¿Qué técnica de montaje aplicas?",
+    "respuestas": [
+      "A) Montaje paralelo",
+      "B) Montaje analítico",
+      "C) Plano secuencia",
+      "D) Jump cut"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El montaje paralelo (cross-cutting) alterna dos o más acciones simultáneas para narrarlas de forma entrelazada."
+  },
+  {
+    "id": "preg-593",
+    "enunciado": "Para dar sensación de solemnidad a la entrada de autoridades en un acto oficial, decides colocar la cámara a ras de suelo apuntando ligeramente hacia arriba. Estás usando:",
+    "respuestas": [
+      "A) Un contrapicado",
+      "B) Un cenital",
+      "C) Un picado",
+      "D) Un plano detalle"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "aplicacion",
+    "explicacion": "El contrapicado (cámara baja mirando hacia arriba) engrandece al sujeto y connota solemnidad o poder."
+  },
+  {
+    "id": "preg-594",
+    "enunciado": "El plano detalle es el más cerrado de la escala de planos y se usa para destacar un objeto o una parte muy concreta del sujeto.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-13",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "El plano detalle cierra el encuadre sobre un elemento concreto (una mano, un objeto), siendo el extremo más cerrado de la escala."
+  },
+  {
+    "id": "preg-595",
+    "enunciado": "El sonido ambiental se considera un signo simbólico dentro del lenguaje audiovisual.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-13",
+    "dificultad": "intermedio",
+    "tipo": "vf",
+    "explicacion": "Falso: el sonido ambiental es un signo indexical; los simbólicos son el texto y los símbolos, y los icónicos la imagen."
+  },
+  {
+    "id": "preg-596",
+    "enunciado": "Te encargan un vídeo conmemorativo. En el metraje tienes: (1) un plano general del edificio provincial, (2) un primer plano de la presidenta hablando y (3) un plano detalle de la placa inaugural. El realizador pide abrir situando al espectador, seguir con la carga emotiva del discurso y cerrar con el dato conmemorativo. ¿Qué orden de montaje respeta ese criterio narrativo?",
+    "respuestas": [
+      "A) 1, 2, 3",
+      "B) 3, 2, 1",
+      "C) 2, 1, 3",
+      "D) 3, 1, 2"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-13",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "El plano general sitúa espacialmente (apertura), el primer plano concentra la emoción del discurso y el plano detalle remata con el elemento simbólico conmemorativo."
+  },
+  {
+    "id": "preg-597",
+    "enunciado": "¿Qué significan las siglas ENG aplicadas a las cámaras de video profesional?",
+    "respuestas": [
+      "A) Electronic News Gathering",
+      "B) Electronic Network Grid",
+      "C) Extended Native Gamma",
+      "D) External Node Generator"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Las cámaras ENG (Electronic News Gathering) son portátiles y están pensadas para la captación de noticias en exteriores."
+  },
+  {
+    "id": "preg-598",
+    "enunciado": "¿Qué unidad permite controlar remotamente los parámetros de una cámara de estudio?",
+    "respuestas": [
+      "A) CCU (Camera Control Unit)",
+      "B) DMD (Digital Micromirror Device)",
+      "C) DSP (Digital Signal Processor)",
+      "D) CTB (Color Temperature Blue)"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Las cámaras de estudio se operan con CCU (Camera Control Unit), que centraliza el control de exposición, color y señal."
+  },
+  {
+    "id": "preg-599",
+    "enunciado": "¿Qué dimensiones tiene un sensor Full Frame?",
+    "respuestas": [
+      "A) 36x24 mm",
+      "B) 24,9x14 mm",
+      "C) 17,3x13 mm",
+      "D) 8,8x6,6 mm"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Full Frame mide 36x24mm; Super 35 (24,9x14), Micro 4/3 (17,3x13) y 2/3\" broadcast (8,8x6,6) son progresivamente menores."
+  },
+  {
+    "id": "preg-600",
+    "enunciado": "La montura PL, habitual en ópticas de cine, responde a las siglas:",
+    "respuestas": [
+      "A) Positive Lock",
+      "B) Prime Lens",
+      "C) Parallel Light",
+      "D) Professional Line"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "PL significa Positive Lock, la montura cinematográfica de bayoneta con fijación positiva usada en ópticas de cine."
+  },
+  {
+    "id": "preg-601",
+    "enunciado": "¿Qué tecnología de sensor se caracteriza por alta sensibilidad y bajo ruido pero elevado consumo, quedando hoy relegada a aplicaciones científicas?",
+    "respuestas": [
+      "A) CCD",
+      "B) CMOS",
+      "C) LCoS",
+      "D) DMD"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El CCD (Charge-Coupled Device) ofrece alta sensibilidad y bajo ruido con consumo elevado; ha sido sustituido por CMOS salvo en usos científicos."
+  },
+  {
+    "id": "preg-602",
+    "enunciado": "Según su distancia focal, un objetivo se considera teleobjetivo a partir de:",
+    "respuestas": [
+      "A) 70 mm",
+      "B) 35 mm",
+      "C) 24 mm",
+      "D) 100 mm"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La clasificación orientativa es: angulares por debajo de 35mm, normales entre 35 y 70mm y teleobjetivos por encima de 70mm."
+  },
+  {
+    "id": "preg-603",
+    "enunciado": "¿Qué diferencia al global shutter del rolling shutter en un sensor CMOS?",
+    "respuestas": [
+      "A) El global shutter lee todo el sensor simultáneamente, evitando la distorsión de objetos en movimiento rápido",
+      "B) El global shutter solo funciona con luz artificial",
+      "C) El rolling shutter ofrece siempre mayor resolución",
+      "D) El rolling shutter elimina el ruido en baja luz"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El rolling shutter lee el sensor línea a línea (distorsiona movimientos rápidos); el global shutter captura todos los píxeles a la vez."
+  },
+  {
+    "id": "preg-604",
+    "enunciado": "¿Cuál es la consecuencia óptica de abrir el diafragma a una apertura amplia como f/1.4?",
+    "respuestas": [
+      "A) Entra más luz y disminuye la profundidad de campo",
+      "B) Entra menos luz y aumenta la profundidad de campo",
+      "C) Aumenta la distancia focal efectiva",
+      "D) Se reduce el ángulo de campo sin afectar a la exposición"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Una apertura amplia (número f bajo) deja pasar más luz y reduce la profundidad de campo, desenfocando el fondo."
+  },
+  {
+    "id": "preg-605",
+    "enunciado": "¿Qué distingue funcionalmente a una cámara EFP de una ENG?",
+    "respuestas": [
+      "A) La EFP está orientada a producción de campo planificada, mientras la ENG prioriza la portabilidad para captar noticias",
+      "B) La EFP es siempre de menor calidad de imagen",
+      "C) La ENG solo puede operarse desde un control central",
+      "D) La EFP no admite ópticas intercambiables"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "ENG (Electronic News Gathering) = captación ágil de noticias; EFP (Electronic Field Production) = producción de campo con más medios y planificación."
+  },
+  {
+    "id": "preg-606",
+    "enunciado": "¿Por qué el zoom óptico es preferible al zoom digital en captación profesional?",
+    "respuestas": [
+      "A) Porque acerca la imagen mediante las lentes sin perder resolución, mientras el digital recorta y escala la imagen",
+      "B) Porque el zoom digital consume más batería",
+      "C) Porque el zoom óptico funciona también en fotografía fija",
+      "D) Porque el zoom digital altera la temperatura de color"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El zoom óptico modifica la distancia focal real; el digital amplía el recorte del sensor degradando la resolución efectiva."
+  },
+  {
+    "id": "preg-607",
+    "enunciado": "La distancia focal de un objetivo determina principalmente:",
+    "respuestas": [
+      "A) El ángulo de campo y la perspectiva de la imagen",
+      "B) La sensibilidad ISO del sensor",
+      "C) La cadencia de fotogramas",
+      "D) El balance de blancos"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "comprension",
+    "explicacion": "La distancia focal define el ángulo de campo (más corta = más ángulo) y la compresión de la perspectiva."
+  },
+  {
+    "id": "preg-608",
+    "enunciado": "Debes grabar las aspas de un dron en vuelo rápido y con una cámara CMOS de rolling shutter aparecen deformadas. ¿Qué solución técnica es la más adecuada?",
+    "respuestas": [
+      "A) Usar una cámara con global shutter, que lee todo el sensor simultáneamente",
+      "B) Subir la sensibilidad ISO",
+      "C) Cambiar a un objetivo angular",
+      "D) Bajar la temperatura de color a 3.200K"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "La distorsión de objetos en movimiento rápido es el artefacto típico del rolling shutter; el global shutter lo elimina al capturar todos los píxeles a la vez."
+  },
+  {
+    "id": "preg-609",
+    "enunciado": "Para una entrevista quieres desenfocar al máximo el fondo con la óptica 35-70mm f/2.8-f/16 disponible. ¿Qué combinación eliges?",
+    "respuestas": [
+      "A) 70 mm a f/2.8",
+      "B) 35 mm a f/16",
+      "C) 50 mm a f/11",
+      "D) 35 mm a f/2.8"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "La menor profundidad de campo se logra combinando la focal más larga disponible con la apertura más amplia (número f más bajo)."
+  },
+  {
+    "id": "preg-610",
+    "enunciado": "El salón de plenos necesita cámaras fijas controladas desde una sala técnica con ajuste centralizado de exposición y color. ¿Qué configuración corresponde?",
+    "respuestas": [
+      "A) Cámaras de estudio con CCU",
+      "B) Cámaras ENG en trípode sin conexión",
+      "C) Cámaras de acción con control por app móvil",
+      "D) Una cámara EFP autónoma por operador"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El control centralizado de parámetros desde sala técnica es la función del CCU (Camera Control Unit) asociado a cámaras de estudio."
+  },
+  {
+    "id": "preg-611",
+    "enunciado": "Necesitas encuadrar una sala completa desde una esquina para un plano de recurso. Con un sensor Super 35, ¿qué focal resulta más apropiada?",
+    "respuestas": [
+      "A) 24 mm (angular)",
+      "B) 85 mm (teleobjetivo)",
+      "C) 135 mm (teleobjetivo)",
+      "D) 70 mm (normal-tele)"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Para abarcar un espacio amplio desde cerca se requiere un angular (menos de 35mm), que ofrece mayor ángulo de campo."
+  },
+  {
+    "id": "preg-612",
+    "enunciado": "El sensor Micro 4/3 es de mayor tamaño físico que el sensor Super 35.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Falso: Super 35 mide 24,9x14mm y Micro 4/3 mide 17,3x13mm, por lo que el Super 35 es mayor."
+  },
+  {
+    "id": "preg-613",
+    "enunciado": "Los sensores CMOS consumen menos energía que los CCD y realizan la lectura por píxeles.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-14",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Cierto: el CMOS se impuso por su menor consumo y lectura por píxeles, en variantes rolling o global shutter."
+  },
+  {
+    "id": "preg-614",
+    "enunciado": "La Diputación va a retransmitir un pleno y dispone de: dos cámaras de estudio con CCU, una cámara ENG y un plató con luz tungsteno a 3.200K. El técnico observa que la cámara ENG, recién llegada de grabar en exteriores, muestra una fuerte dominante anaranjada en el salón. ¿Cuál es la causa más probable y su corrección?",
+    "respuestas": [
+      "A) Conserva el balance de blancos de exteriores (5.600K); hay que rehacer el balance para el tungsteno de 3.200K",
+      "B) El sensor CMOS está averiado; hay que sustituir la cámara",
+      "C) La óptica tiene una focal incorrecta; hay que cambiar a teleobjetivo",
+      "D) El CCU está enviando una señal errónea a la cámara ENG"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-14",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "Con balance de blancos ajustado a luz día (5.600K), la luz de tungsteno (3.200K) se registra anaranjada. La corrección es rehacer el white balance para la fuente predominante; la cámara ENG además no depende del CCU."
+  },
+  {
+    "id": "preg-615",
+    "enunciado": "¿Qué tensión de alimentación phantom requieren habitualmente los micrófonos de condensador?",
+    "respuestas": [
+      "A) +48V",
+      "B) +12V",
+      "C) +5V",
+      "D) +96V"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Los micrófonos de condensador requieren alimentación phantom de +48V (o batería) para polarizar la cápsula."
+  },
+  {
+    "id": "preg-616",
+    "enunciado": "¿Qué patrón polar capta el sonido por igual en los 360 grados?",
+    "respuestas": [
+      "A) Omnidireccional",
+      "B) Cardioide",
+      "C) Figura de ocho",
+      "D) Hipercardioide"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El patrón omnidireccional capta desde todas las direcciones; el cardioide prioriza el frente y rechaza la parte posterior."
+  },
+  {
+    "id": "preg-617",
+    "enunciado": "El micrófono Shure SM58 es un clásico ejemplo de micrófono:",
+    "respuestas": [
+      "A) Dinámico para voz",
+      "B) De condensador de estudio",
+      "C) De cinta (ribbon)",
+      "D) De cañón para exteriores"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El SM58 es el dinámico de voz por excelencia; su hermano SM57 se orienta a instrumentos. El Neumann U87 sería el condensador de estudio típico."
+  },
+  {
+    "id": "preg-618",
+    "enunciado": "¿Qué principio utiliza el micrófono de cañón (shotgun) para lograr su alta direccionalidad?",
+    "respuestas": [
+      "A) Interferometría acústica",
+      "B) Polarización electrostática",
+      "C) Doble bobina móvil",
+      "D) Compresión multibanda"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "El cañón usa interferometría acústica (tubo de interferencia) que cancela el sonido lateral, ideal para exteriores."
+  },
+  {
+    "id": "preg-619",
+    "enunciado": "¿Qué patrón polar presenta sensibilidad frontal y posterior con rechazo lateral?",
+    "respuestas": [
+      "A) Figura de ocho",
+      "B) Cardioide",
+      "C) Omnidireccional",
+      "D) Supercardioide"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La figura de ocho (bidireccional) capta por delante y por detrás rechazando los laterales; es típica de los micrófonos de cinta."
+  },
+  {
+    "id": "preg-620",
+    "enunciado": "En una mesa de mezclas digital, la posibilidad de guardar y recuperar configuraciones completas se denomina:",
+    "respuestas": [
+      "A) Escenas memorizables",
+      "B) Phantom power",
+      "C) Pan law",
+      "D) Talkback"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Las mesas digitales (Yamaha QL/CL, DiGiCo SD, Allen & Heath dLive) permiten memorizar escenas con todos los ajustes del show."
+  },
+  {
+    "id": "preg-621",
+    "enunciado": "¿Por qué un micrófono dinámico es más adecuado que uno de condensador para un escenario exterior sin alimentación garantizada?",
+    "respuestas": [
+      "A) Porque es robusto y no necesita alimentación externa",
+      "B) Porque tiene mayor sensibilidad y rango de frecuencias",
+      "C) Porque su cápsula polarizada resiste mejor la humedad",
+      "D) Porque requiere phantom de +48V"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El dinámico (bobina móvil) es robusto y pasivo; el condensador es más sensible pero necesita phantom o batería y es más delicado."
+  },
+  {
+    "id": "preg-622",
+    "enunciado": "¿Qué ventaja aporta el patrón cardioide en un atril con megafonía frente al omnidireccional?",
+    "respuestas": [
+      "A) Rechaza el sonido posterior, reduciendo el riesgo de realimentación (feedback) con los altavoces",
+      "B) Capta mejor el ruido ambiente de la sala",
+      "C) Permite prescindir de mesa de mezclas",
+      "D) Duplica la ganancia del amplificador"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El cardioide maximiza la captación frontal y rechaza la posterior, lo que reduce la realimentación al apuntar su nulo hacia los monitores/altavoces."
+  },
+  {
+    "id": "preg-623",
+    "enunciado": "¿Qué diferencia de arquitectura separa una mesa analógica de una digital?",
+    "respuestas": [
+      "A) La analógica procesa señal eléctrica continua; la digital convierte A/D y procesa con DSP",
+      "B) La analógica no tiene ecualizador por canal",
+      "C) La digital no admite señales de micrófono",
+      "D) La analógica siempre tiene más canales"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "La mesa analógica mantiene la señal eléctrica continua en todo el recorrido; la digital convierte a datos y procesa mediante DSP, añadiendo escenas y recall."
+  },
+  {
+    "id": "preg-624",
+    "enunciado": "¿Por qué un micrófono de cinta (ribbon) requiere un preamplificador de alta ganancia?",
+    "respuestas": [
+      "A) Porque su nivel de salida es muy bajo y su señal delicada",
+      "B) Porque funciona con phantom de +48V",
+      "C) Porque solo capta frecuencias agudas",
+      "D) Porque su impedancia es idéntica a la de línea"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "avanzado",
+    "tipo": "comprension",
+    "explicacion": "Los ribbon entregan señal muy débil y de respuesta natural; necesitan previos de alta ganancia y limpieza, y pueden dañarse con phantom."
+  },
+  {
+    "id": "preg-625",
+    "enunciado": "En la cadena de un canal de mesa de mezclas, ¿cuál es el orden lógico de las etapas básicas?",
+    "respuestas": [
+      "A) Preamplificador → EQ → auxiliares/pan → fader",
+      "B) Fader → EQ → preamplificador → pan",
+      "C) EQ → fader → preamplificador → auxiliares",
+      "D) Pan → auxiliares → fader → preamplificador"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El canal típico encadena preamplificador (ganancia de entrada), ecualizador, envíos auxiliares y panorama, y finalmente el fader de nivel."
+  },
+  {
+    "id": "preg-626",
+    "enunciado": "Grabas declaraciones a un político en una calle ruidosa y necesitas aislar su voz a un metro de distancia. ¿Qué micrófono eliges?",
+    "respuestas": [
+      "A) Un cañón (shotgun) como el Rode NTG3",
+      "B) Un omnidireccional de estudio",
+      "C) Un ribbon vintage",
+      "D) Un micrófono de superficie omnidireccional"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El cañón, por su interferometría acústica y alta direccionalidad, es la elección para aislar la fuente en exteriores ruidosos."
+  },
+  {
+    "id": "preg-627",
+    "enunciado": "Durante un pleno, el micrófono de la presidencia acopla (pitido de feedback) al subir el volumen de la sala. ¿Cuál es la primera medida técnica razonable?",
+    "respuestas": [
+      "A) Bajar la ganancia y comprobar la orientación del micrófono respecto a los altavoces, aprovechando el rechazo del patrón cardioide",
+      "B) Cambiar a un micrófono omnidireccional de mayor sensibilidad",
+      "C) Aumentar los agudos en el ecualizador del canal",
+      "D) Activar la alimentación phantom"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "La realimentación se combate reduciendo ganancia y apuntando el nulo posterior del cardioide hacia los altavoces; nunca aumentando sensibilidad omnidireccional o agudos."
+  },
+  {
+    "id": "preg-628",
+    "enunciado": "Debes sonorizar un coro con matices y detalle en un auditorio silencioso, con mesa que dispone de phantom. ¿Qué tipo de micrófono maximiza la fidelidad?",
+    "respuestas": [
+      "A) De condensador, por su mayor sensibilidad y rango de frecuencias",
+      "B) Dinámico de bobina móvil",
+      "C) De cañón apuntado desde 20 metros",
+      "D) Cualquier micrófono sin phantom"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El condensador (con phantom +48V disponible) ofrece la sensibilidad y respuesta en frecuencia idóneas para fuentes ricas en matices."
+  },
+  {
+    "id": "preg-629",
+    "enunciado": "Para un directo con banda en el auditorio provincial necesitas memorizar la configuración de la prueba de sonido y recuperarla el día del concierto. ¿Qué equipo lo permite de forma nativa?",
+    "respuestas": [
+      "A) Una mesa digital con escenas (p. ej. Yamaha CL)",
+      "B) Una mesa analógica de gama alta",
+      "C) Un preamplificador valvular externo",
+      "D) Un ecualizador gráfico de 31 bandas"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "aplicacion",
+    "explicacion": "Las escenas memorizables son función característica de las mesas digitales; la analógica exige reajustar físicamente cada control."
+  },
+  {
+    "id": "preg-630",
+    "enunciado": "El micrófono de condensador funciona sin ninguna fuente de alimentación externa.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Falso: el condensador requiere alimentación phantom (+48V) o batería para polarizar su cápsula; el que no necesita alimentación es el dinámico."
+  },
+  {
+    "id": "preg-631",
+    "enunciado": "El patrón hipercardioide es más direccional que el cardioide, a costa de un pequeño lóbulo de captación posterior.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-15",
+    "dificultad": "intermedio",
+    "tipo": "vf",
+    "explicacion": "Cierto: hipercardioide y supercardioide estrechan la captación frontal y presentan un lóbulo posterior reducido."
+  },
+  {
+    "id": "preg-632",
+    "enunciado": "Montas la sonorización de una rueda de prensa: atril con dos micrófonos, mesa digital y altavoces frontales hacia el público. Un periodista se queja de que las preguntas desde el fondo de la sala no se escuchan en la grabación. ¿Cuál es la solución más correcta técnicamente?",
+    "respuestas": [
+      "A) Añadir un micrófono inalámbrico de mano para el turno de preguntas y mezclarlo como canal adicional",
+      "B) Subir la ganancia de los micrófonos del atril hasta captar el fondo de la sala",
+      "C) Cambiar los micrófonos del atril por omnidireccionales",
+      "D) Acercar los altavoces al atril"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "Subir ganancia extrema o usar omnis en el atril provoca acoples y captación sucia; la práctica correcta es dar micrófono propio al turno de preguntas."
+  },
+  {
+    "id": "preg-633",
+    "enunciado": "¿Cuál es la temperatura de color estándar del tungsteno de estudio?",
+    "respuestas": [
+      "A) 3.200K",
+      "B) 5.600K",
+      "C) 6.500K",
+      "D) 1.900K"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El estándar de tungsteno de estudio es 3.200K; la luz de día estándar es 5.600K."
+  },
+  {
+    "id": "preg-634",
+    "enunciado": "¿Qué significan las siglas HMI en iluminación profesional?",
+    "respuestas": [
+      "A) Hydrargyrum Medium-arc Iodide",
+      "B) High Magnitude Illumination",
+      "C) Halogen Metal Incandescent",
+      "D) Hybrid Modular Inverter"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "HMI = Hydrargyrum Medium-arc Iodide: lámparas de arco a 5.600K, 4-5 veces más eficientes que el tungsteno, con balasto electrónico."
+  },
+  {
+    "id": "preg-635",
+    "enunciado": "¿Qué filtro corrige una fuente de tungsteno para acercarla a la luz de día?",
+    "respuestas": [
+      "A) CTB (Color Temperature Blue)",
+      "B) CTO (Color Temperature Orange)",
+      "C) ND (Neutral Density)",
+      "D) Polarizador circular"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "El CTB azula la luz cálida del tungsteno hacia daylight; el CTO hace lo contrario, calentar fuentes frías."
+  },
+  {
+    "id": "preg-636",
+    "enunciado": "¿En qué unidades se mide la intensidad de la luz en producción audiovisual?",
+    "respuestas": [
+      "A) Lux o foot-candles",
+      "B) Decibelios",
+      "C) Kelvin",
+      "D) Vatios por canal"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La intensidad se mide en lux (o foot-candles); los Kelvin miden temperatura de color y los vatios, consumo."
+  },
+  {
+    "id": "preg-637",
+    "enunciado": "En el esquema clásico de tres puntos, la luz que separa al sujeto del fondo es:",
+    "respuestas": [
+      "A) El contraluz (back light)",
+      "B) La luz clave (key light)",
+      "C) La luz de relleno (fill light)",
+      "D) La luz de fondo (background light)"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El contraluz o rim light recorta el contorno del sujeto separándolo del fondo; la clave define la forma y el relleno suaviza sombras."
+  },
+  {
+    "id": "preg-638",
+    "enunciado": "¿Qué rango de temperatura de color cubre típicamente un panel LED bi-color profesional?",
+    "respuestas": [
+      "A) 2.700K-6.500K",
+      "B) 1.000K-2.000K",
+      "C) 8.000K-12.000K",
+      "D) 3.200K fijo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "Los LED bi-color ajustan de forma continua entre unos 2.700K y 6.500K, con CRI>95 en equipos profesionales."
+  },
+  {
+    "id": "preg-639",
+    "enunciado": "¿Por qué las fuentes HMI necesitan balasto electrónico?",
+    "respuestas": [
+      "A) Porque son lámparas de arco que requieren regulación del encendido y de la corriente",
+      "B) Porque emiten a 3.200K y hay que corregirlas",
+      "C) Porque su CRI es demasiado alto",
+      "D) Porque funcionan con corriente continua de baterías"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "avanzado",
+    "tipo": "comprension",
+    "explicacion": "El HMI es una lámpara de descarga de arco: el balasto controla el arranque y estabiliza la corriente del arco."
+  },
+  {
+    "id": "preg-640",
+    "enunciado": "¿Qué caracteriza a la luz dura frente a la difusa?",
+    "respuestas": [
+      "A) Produce sombras nítidas y marcadas por proceder de una fuente puntual",
+      "B) Elimina por completo las sombras",
+      "C) Tiene siempre temperatura de color más alta",
+      "D) Solo puede generarse con LED"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "La calidad de la luz (dura vs difusa) depende del tamaño relativo de la fuente: la dura, puntual, dibuja sombras nítidas; la difusa las suaviza."
+  },
+  {
+    "id": "preg-641",
+    "enunciado": "¿Por qué la luz de relleno se sitúa generalmente 1-2 stops por debajo de la clave?",
+    "respuestas": [
+      "A) Para suavizar las sombras sin anular el modelado que crea la luz clave",
+      "B) Para evitar que el sujeto proyecte sombra sobre el fondo",
+      "C) Porque el relleno debe ser siempre de tungsteno",
+      "D) Para compensar el balance de blancos"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Si el relleno igualara a la clave, aplanaría el rostro; a 1-2 stops por debajo conserva volumen y suaviza el contraste."
+  },
+  {
+    "id": "preg-642",
+    "enunciado": "Una imagen grabada con balance de blancos correcto bajo fluorescentes estándar corresponde aproximadamente a:",
+    "respuestas": [
+      "A) 4.300K-4.500K",
+      "B) 1.900K-2.800K",
+      "C) 5.600K exactos",
+      "D) 7.500K o más"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Los fluorescentes estándar rondan 4.300K-4.500K, entre el tungsteno (3.200K) y la luz de día (5.600K)."
+  },
+  {
+    "id": "preg-643",
+    "enunciado": "¿Qué ventaja principal ofrecen los LED frente al tungsteno en un plató?",
+    "respuestas": [
+      "A) Bajo consumo y poco calor con ajuste continuo de temperatura de color",
+      "B) Mayor calor radiado que ayuda a climatizar",
+      "C) CRI superior a 100",
+      "D) No necesitan corriente eléctrica"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "comprension",
+    "explicacion": "El LED consume poco, apenas calienta y permite ajustar la temperatura (bi-color); el tungsteno tiene CRI 100 pero genera mucho calor."
+  },
+  {
+    "id": "preg-644",
+    "enunciado": "¿Qué mide el CRI de una fuente de luz?",
+    "respuestas": [
+      "A) La fidelidad con la que reproduce los colores respecto a una fuente de referencia",
+      "B) El consumo eléctrico por hora",
+      "C) La duración de la lámpara",
+      "D) La distancia máxima de proyección"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El CRI (Color Rendering Index) valora la reproducción cromática; el tungsteno alcanza CRI 100 y los buenos LED superan 95."
+  },
+  {
+    "id": "preg-645",
+    "enunciado": "Grabas un acto en una sala con grandes ventanales (luz día) y solo dispones de focos de tungsteno. ¿Cómo igualas las fuentes?",
+    "respuestas": [
+      "A) Colocando filtro CTB en los focos de tungsteno para llevarlos hacia 5.600K",
+      "B) Colocando filtro CTO en las ventanas para enfriarlas",
+      "C) Balanceando la cámara a 3.200K y dejando las ventanas sin tratar",
+      "D) Subiendo la potencia de los focos al máximo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "Para mezclar fuentes hay que unificar temperaturas: el CTB azula el tungsteno hacia daylight. El CTO en ventanas las calentaría (no las enfría)."
+  },
+  {
+    "id": "preg-646",
+    "enunciado": "En una entrevista, el rostro queda plano y sin volumen con un solo panel frontal. Siguiendo el esquema de tres puntos, ¿qué añades primero para recuperar volumen y separación?",
+    "respuestas": [
+      "A) Desplazar la clave a unos 45° y añadir contraluz",
+      "B) Otro panel frontal a la misma altura",
+      "C) Solo una luz de fondo",
+      "D) Un filtro ND en el objetivo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "La clave angulada modela el rostro y el contraluz separa del fondo; la luz frontal plana es justo lo que se quiere evitar."
+  },
+  {
+    "id": "preg-647",
+    "enunciado": "Para iluminar de forma continua un plató pequeño de la Diputación con mínimo calor y ajuste bi-color, ¿qué fuente es la más adecuada?",
+    "respuestas": [
+      "A) Paneles LED (p. ej. tipo SkyPanel o Aputure)",
+      "B) Fresneles de tungsteno de 2.000W",
+      "C) HMI de 4.000W con balasto",
+      "D) Lámparas de vela a 1.900K"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "aplicacion",
+    "explicacion": "El LED es idóneo en espacios pequeños: bajo consumo y calor, bi-color 2.700K-6.500K y CRI/TLCI>95."
+  },
+  {
+    "id": "preg-648",
+    "enunciado": "Necesitas potencia lumínica equivalente a luz de día para rellenar un exterior en sombra con el menor consumo posible entre lámparas de descarga. ¿Qué fuente clásica eliges?",
+    "respuestas": [
+      "A) HMI (p. ej. ARRI M18), 5.600K y 4-5 veces más eficiente que el tungsteno",
+      "B) Tungsteno de 10K con CTO",
+      "C) Fluorescente doméstico",
+      "D) Un reflector pasivo sin fuente"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El HMI emite a 5.600K con eficiencia 4-5 veces superior al tungsteno, siendo la lámpara de descarga de referencia en exteriores."
+  },
+  {
+    "id": "preg-649",
+    "enunciado": "La luz de vela y las lámparas incandescentes se sitúan en la franja de 1.900K a 2.800K, con dominante cálida.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Cierto: la franja baja del espectro Kelvin (1.900K-2.800K) corresponde a velas y tungsteno doméstico, de tono cálido/naranja."
+  },
+  {
+    "id": "preg-650",
+    "enunciado": "Cuanto más alta es la temperatura de color en Kelvin, más cálido (naranja) es el tono de la luz.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-16",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Falso: es al revés. Los Kelvin bajos (2.000-3.000K) son cálidos/naranjas y los altos (6.500K+) fríos/azulados."
+  },
+  {
+    "id": "preg-651",
+    "enunciado": "Montas el esquema de un vídeo institucional: clave a 45° con panel LED a 5.600K, relleno con reflector y contraluz tungsteno sin filtrar. En el visionado, el borde del pelo del sujeto aparece anaranjado respecto al resto. ¿Cuál es el diagnóstico correcto?",
+    "respuestas": [
+      "A) El contraluz de tungsteno (3.200K) no coincide con el balance a 5.600K; hay que filtrarlo con CTB o cambiarlo a LED daylight",
+      "B) El sensor tiene rolling shutter",
+      "C) El reflector de relleno está demasiado cerca",
+      "D) La clave LED tiene un CRI demasiado alto"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-16",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "Mezclar contraluz de 3.200K con escena balanceada a 5.600K produce el halo cálido descrito; se corrige unificando la temperatura con CTB o fuente daylight."
+  },
+  {
+    "id": "preg-652",
+    "enunciado": "En el flujo de postproducción, ¿cómo se denomina el primer montaje completo y provisional de la pieza?",
+    "respuestas": [
+      "A) Assembly cut",
+      "B) Fine cut",
+      "C) Master",
+      "D) Proxy"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El pipeline pasa por ingestión, organización, assembly cut (montaje), fine cut (edición fina), color, mezcla y exportación."
+  },
+  {
+    "id": "preg-653",
+    "enunciado": "¿Qué software de edición integra en una sola aplicación edición, composición (Fusion), color y audio (Fairlight)?",
+    "respuestas": [
+      "A) DaVinci Resolve",
+      "B) Adobe Premiere Pro",
+      "C) Avid Media Composer",
+      "D) Final Cut Pro"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "DaVinci Resolve reúne edición, Fusion (composición), Color page y Fairlight (audio) en una única aplicación."
+  },
+  {
+    "id": "preg-654",
+    "enunciado": "¿Qué editor se considera el estándar histórico en broadcast y cine de Hollywood, con flujo colaborativo sobre Avid Nexis?",
+    "respuestas": [
+      "A) Avid Media Composer",
+      "B) Final Cut Pro",
+      "C) Adobe Premiere Pro",
+      "D) DaVinci Resolve"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Avid Media Composer domina en broadcast y Hollywood por su gestión robusta de media y el trabajo colaborativo con Avid Nexis."
+  },
+  {
+    "id": "preg-655",
+    "enunciado": "¿Qué espacio de color es el estándar de la televisión HD?",
+    "respuestas": [
+      "A) Rec. 709",
+      "B) Rec. 2020",
+      "C) DCI-P3",
+      "D) sRGB lineal"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Rec. 709 es el estándar HD; Rec. 2020 corresponde a UHD/4K HDR y DCI-P3 al cine digital."
+  },
+  {
+    "id": "preg-656",
+    "enunciado": "¿Cuántos valores por canal ofrece una profundidad de color de 10 bits?",
+    "respuestas": [
+      "A) 1.024",
+      "B) 256",
+      "C) 4.096",
+      "D) 65.536"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "8-bit = 256 valores, 10-bit = 1.024 y 12-bit = 4.096 valores por canal."
+  },
+  {
+    "id": "preg-657",
+    "enunciado": "La edición en la que el audio del plano siguiente entra antes que su imagen se denomina:",
+    "respuestas": [
+      "A) J-cut",
+      "B) L-cut",
+      "C) Match cut",
+      "D) Hard cut"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "En el J-cut el audio se adelanta a la imagen; en el L-cut el audio del plano anterior se prolonga sobre la imagen nueva."
+  },
+  {
+    "id": "preg-658",
+    "enunciado": "¿Qué característica distintiva tiene la línea de tiempo de Final Cut Pro?",
+    "respuestas": [
+      "A) La magnetic timeline",
+      "B) La página de nodos de color",
+      "C) Los bins compartidos en Nexis",
+      "D) La integración con Audition"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Final Cut Pro (exclusivo de macOS y optimizado para Apple Silicon) se basa en la magnetic timeline."
+  },
+  {
+    "id": "preg-659",
+    "enunciado": "¿Para qué sirve transcodificar el material a un formato intermedio como ProRes o DNxHD en la ingestión?",
+    "respuestas": [
+      "A) Para editar con fluidez manteniendo alta calidad, al ser codecs intraframe pensados para edición",
+      "B) Para reducir el tamaño de entrega final en streaming",
+      "C) Para proteger el material con DRM",
+      "D) Para convertir el video a 8 bits obligatoriamente"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "ProRes 422/4444 y DNxHD/HR son formatos de trabajo intraframe: cada fotograma es independiente, lo que agiliza la edición sin sacrificar calidad."
+  },
+  {
+    "id": "preg-660",
+    "enunciado": "¿Qué aporta narrativamente un match cut frente a un corte en seco?",
+    "respuestas": [
+      "A) Enlaza dos planos por continuidad visual o conceptual, creando una asociación de ideas",
+      "B) Acelera el ritmo eliminando fotogramas",
+      "C) Garantiza la continuidad de la línea de acción",
+      "D) Sincroniza el audio con la imagen"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El match cut conecta planos mediante una correspondencia visual o conceptual (forma, movimiento, idea), generando significado."
+  },
+  {
+    "id": "preg-661",
+    "enunciado": "¿Por qué es importante respetar la línea de acción (eje) al montar dos planos de una conversación?",
+    "respuestas": [
+      "A) Para mantener la dirección de miradas y movimiento coherente y no desorientar al espectador",
+      "B) Para que el color coincida entre planos",
+      "C) Para poder aplicar LUTs creativas",
+      "D) Para reducir el bitrate de exportación"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Saltarse el eje invierte la posición aparente de los sujetos y rompe la continuidad espacial que el montaje clásico protege."
+  },
+  {
+    "id": "preg-662",
+    "enunciado": "¿Qué ventaja práctica tiene el 10-bit sobre el 8-bit al corregir color?",
+    "respuestas": [
+      "A) Sus 1.024 valores por canal evitan el banding al estirar la señal en la corrección",
+      "B) Ocupa menos espacio en disco",
+      "C) Es compatible con más reproductores domésticos",
+      "D) Permite editar sin transcodificar"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "avanzado",
+    "tipo": "comprension",
+    "explicacion": "Con más niveles por canal, las gradaciones suaves (cielos, pieles) resisten la corrección sin posterización o banding."
+  },
+  {
+    "id": "preg-663",
+    "enunciado": "¿En qué fase del pipeline se decide el look creativo mediante gradación de color?",
+    "respuestas": [
+      "A) Tras la edición fina y antes de la exportación del master",
+      "B) Durante la ingestión del material",
+      "C) Antes del assembly cut",
+      "D) Después de la entrega de derivados"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El orden del pipeline es: ingestión, organización, assembly, fine cut, corrección de color, mezcla de audio y exportación/entrega."
+  },
+  {
+    "id": "preg-664",
+    "enunciado": "En un reportaje, quieres que se oiga la voz del entrevistado unos segundos mientras todavía se ven planos recurso del taller. ¿Qué técnica usas?",
+    "respuestas": [
+      "A) J-cut: adelantar el audio de la entrevista sobre los planos recurso",
+      "B) Match cut entre dos planos del taller",
+      "C) Cortinilla clásica",
+      "D) Montaje ideológico"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El J-cut introduce el audio del plano siguiente antes de mostrar su imagen: recurso habitual para entrar en entrevistas con naturalidad."
+  },
+  {
+    "id": "preg-665",
+    "enunciado": "Recibes material RAW de una cámara RED para un spot institucional y tu equipo de edición es modesto. ¿Cuál es el flujo de trabajo correcto?",
+    "respuestas": [
+      "A) Transcodificar a proxies o a un intermedio tipo ProRes para editar, y reconformar con el RAW original para el acabado",
+      "B) Editar el RAW nativo aunque el equipo no lo reproduzca fluido",
+      "C) Convertir todo a H.264 de bajo bitrate y entregar ese mismo archivo",
+      "D) Pasar el material a 8 bits para ahorrar espacio y corregir color después"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "El flujo proxy/intermedio permite editar con fluidez y conformar después con el RAW para conservar toda la calidad en el acabado."
+  },
+  {
+    "id": "preg-666",
+    "enunciado": "Debes entregar un vídeo 4K HDR para un canal UHD. ¿Qué espacio de color exige la entrega?",
+    "respuestas": [
+      "A) Rec. 2020",
+      "B) Rec. 709",
+      "C) sRGB",
+      "D) Espacio de cámara nativo sin transformar"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Rec. 2020 es el espacio de color de UHD/4K HDR; Rec. 709 se limita al HD estándar."
+  },
+  {
+    "id": "preg-667",
+    "enunciado": "Montas un vídeo donde un operario lanza una herramienta hacia arriba y cortas al mástil de una bandera izándose con el mismo movimiento. Esta transición es un ejemplo de:",
+    "respuestas": [
+      "A) Match cut",
+      "B) L-cut",
+      "C) Corte en seco sin relación",
+      "D) Fundido a negro"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Es un match cut de movimiento/concepto: dos planos enlazados por continuidad visual, al estilo del célebre corte de '2001'."
+  },
+  {
+    "id": "preg-668",
+    "enunciado": "El montaje paralelo o cross-cutting consiste en alternar dos o más acciones que suceden simultáneamente.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Cierto: el cross-cutting entrelaza acciones simultáneas; el montaje secuencial, en cambio, sigue el orden cronológico."
+  },
+  {
+    "id": "preg-669",
+    "enunciado": "DaVinci Resolve es de pago en su versión básica y gratuito en la versión Studio.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "vf",
+    "explicacion": "Es al revés: existe una versión básica gratuita muy completa, y la versión Studio es la de pago con funciones avanzadas."
+  },
+  {
+    "id": "preg-670",
+    "enunciado": "La Diputación te pide un vídeo master en máxima calidad y una versión para redes sociales. El material está editado en ProRes 422 HQ a 10 bits. ¿Cuál es la estrategia de exportación correcta?",
+    "respuestas": [
+      "A) Exportar el master en ProRes (intraframe, alta calidad) y derivar de él una versión H.264/H.265 comprimida para redes",
+      "B) Exportar todo directamente en H.264 de bajo bitrate, que sirve para ambos usos",
+      "C) Exportar el master en JPEG secuencial",
+      "D) Subir el proyecto del editor directamente a redes"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "El pipeline de entrega genera un master de alta calidad (intraframe) y a partir de él los derivados comprimidos de distribución (interframe)."
+  },
+  {
+    "id": "preg-671",
+    "enunciado": "¿En qué unidad se mide el nivel de una señal de audio digital?",
+    "respuestas": [
+      "A) dBFS",
+      "B) dBu",
+      "C) Lux",
+      "D) Kelvin"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "En digital el nivel se mide en dBFS (decibels Full Scale); el dBu corresponde al dominio analógico."
+  },
+  {
+    "id": "preg-672",
+    "enunciado": "¿Qué banda de frecuencias concentra la presencia y la inteligibilidad de la voz?",
+    "respuestas": [
+      "A) 500 Hz - 2 kHz (medios)",
+      "B) 20-60 Hz (subgraves)",
+      "C) 6-20 kHz (agudos)",
+      "D) 60-250 Hz (graves)"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Los medios (500Hz-2kHz) aportan presencia e inteligibilidad; los subgraves dan potencia y los agudos aire."
+  },
+  {
+    "id": "preg-673",
+    "enunciado": "¿Qué tipo de ecualizador permite ajustar frecuencia, ganancia y factor Q de cada banda?",
+    "respuestas": [
+      "A) Paramétrico",
+      "B) Gráfico",
+      "C) Shelving",
+      "D) De fase lineal fijo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El EQ paramétrico ofrece control total (frecuencia, ganancia, Q); el gráfico trabaja con bandas fijas."
+  },
+  {
+    "id": "preg-674",
+    "enunciado": "¿Qué procesador de dinámica tiene ratio infinito y evita el clipping?",
+    "respuestas": [
+      "A) El limitador",
+      "B) El expansor",
+      "C) El noise gate",
+      "D) El de-esser"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El limitador es un compresor de ratio infinito; en broadcast se exige true peak por debajo de -1dBTP."
+  },
+  {
+    "id": "preg-675",
+    "enunciado": "¿Qué frame rate usa el sistema PAL/SECAM?",
+    "respuestas": [
+      "A) 25 fps",
+      "B) 29,97 fps",
+      "C) 24 fps",
+      "D) 30 fps"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "PAL/SECAM trabaja a 25fps; NTSC usa 29,97fps con drop-frame y el cine tradicional 24fps."
+  },
+  {
+    "id": "preg-676",
+    "enunciado": "¿Cómo se denominan las dos variantes del código de tiempo SMPTE 12M?",
+    "respuestas": [
+      "A) LTC (longitudinal) y VITC (intervalo vertical)",
+      "B) PCM y AAC",
+      "C) PQ y HLG",
+      "D) LUT y CDL"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "El timecode SMPTE 12M se transporta como LTC (Longitudinal Time Code) o VITC (Vertical Interval Time Code)."
+  },
+  {
+    "id": "preg-677",
+    "enunciado": "¿Qué parámetros definen el comportamiento de un compresor de audio?",
+    "respuestas": [
+      "A) Ratio, threshold, attack, release y knee",
+      "B) Frecuencia, ganancia y Q",
+      "C) Pan, fader y auxiliares",
+      "D) Lux, Kelvin y CRI"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El compresor se configura con ratio (2:1, 4:1, 10:1), threshold, tiempos de attack/release y curva de knee."
+  },
+  {
+    "id": "preg-678",
+    "enunciado": "¿Para qué sirve el Word Clock en un sistema de audio digital multi-dispositivo?",
+    "respuestas": [
+      "A) Para sincronizar los relojes de muestreo entre equipos y evitar el drift",
+      "B) Para marcar el inicio de cada toma con una claqueta",
+      "C) Para ecualizar automáticamente la sala",
+      "D) Para convertir dBu en dBFS"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "avanzado",
+    "tipo": "comprension",
+    "explicacion": "El Word Clock alinea la frecuencia de muestreo de todos los conversores digitales; sin él aparecen clicks y deriva (drift)."
+  },
+  {
+    "id": "preg-679",
+    "enunciado": "¿Qué función cumple la claqueta (slate) en la sincronización de audio y video?",
+    "respuestas": [
+      "A) Ofrece una referencia visual y sonora simultánea (el clap) para alinear las pistas en postproducción",
+      "B) Genera el timecode SMPTE del proyecto",
+      "C) Codifica el audio en PCM",
+      "D) Marca el balance de blancos de la cámara"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El golpe de claqueta produce un pico visual y de audio que permite alinear la pista externa con la imagen."
+  },
+  {
+    "id": "preg-680",
+    "enunciado": "¿Qué diferencia a un noise gate de un expansor?",
+    "respuestas": [
+      "A) El gate corta la señal por debajo del umbral; el expansor aumenta el rango dinámico de forma progresiva",
+      "B) El gate solo funciona en analógico",
+      "C) El expansor elimina el clipping y el gate no",
+      "D) Son exactamente el mismo procesador"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El gate silencia lo que queda bajo el threshold (ruido); el expansor amplía la diferencia entre señales fuertes y débiles gradualmente."
+  },
+  {
+    "id": "preg-681",
+    "enunciado": "¿Por qué la sincronización por forma de onda (waveform sync) requiere que la cámara también grabe audio de referencia?",
+    "respuestas": [
+      "A) Porque el algoritmo correlaciona las formas de onda de ambas grabaciones para alinearlas",
+      "B) Porque el timecode viaja por el canal de video",
+      "C) Porque sin audio la cámara no puede grabar imagen",
+      "D) Porque el Word Clock necesita dos fuentes"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Herramientas como PluralEyes o el sync de Premiere comparan la onda del audio de cámara con la de la grabadora externa para alinearlas."
+  },
+  {
+    "id": "preg-682",
+    "enunciado": "¿Qué consigue un EQ shelving aplicado en los extremos del espectro?",
+    "respuestas": [
+      "A) Un realce o corte suave y sostenido a partir de una frecuencia hacia el extremo del espectro",
+      "B) Un pico estrecho de ganancia en una única frecuencia",
+      "C) Compresión por bandas",
+      "D) Eliminar la panoramización"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "El shelving actúa como una 'estantería': modifica de forma sostenida todo lo que queda por encima (high shelf) o por debajo (low shelf) de la frecuencia de corte."
+  },
+  {
+    "id": "preg-683",
+    "enunciado": "La voz grabada de un ponente suena opaca y poco inteligible. ¿Qué zona del espectro realzas con moderación?",
+    "respuestas": [
+      "A) 500 Hz - 2 kHz y algo de 2-6 kHz para presencia y definición",
+      "B) 20-60 Hz para dar potencia",
+      "C) Solo 6-20 kHz",
+      "D) 250-500 Hz en gran cantidad"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "La inteligibilidad vive en los medios (500Hz-2kHz) y la definición en los medios agudos (2-6kHz); realzarlos con moderación aclara la voz."
+  },
+  {
+    "id": "preg-684",
+    "enunciado": "En la mezcla final para emisión broadcast, los picos reales de la señal deben quedar:",
+    "respuestas": [
+      "A) Por debajo de -1 dBTP (true peak)",
+      "B) Exactamente a 0 dBFS",
+      "C) Por encima de +3 dBu",
+      "D) Al nivel que marque el fader de la mesa"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "avanzado",
+    "tipo": "aplicacion",
+    "explicacion": "La práctica broadcast exige limitar el true peak por debajo de -1dBTP para evitar clipping en la codificación."
+  },
+  {
+    "id": "preg-685",
+    "enunciado": "Entre toma y toma, el micrófono del ponente capta el murmullo constante del aire acondicionado. ¿Qué procesador atenúa ese ruido cuando el ponente no habla?",
+    "respuestas": [
+      "A) Noise gate con threshold ajustado sobre el nivel del murmullo",
+      "B) Limitador a -1dBTP",
+      "C) EQ shelving de agudos",
+      "D) Compresor de ratio 2:1"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El gate silencia la señal por debajo del umbral: deja pasar la voz y corta el ruido de fondo en las pausas."
+  },
+  {
+    "id": "preg-686",
+    "enunciado": "Grabas un acto con grabadora externa y dos cámaras sin cablear timecode. ¿Qué método de sincronización resulta más práctico en postproducción?",
+    "respuestas": [
+      "A) Sincronizar por forma de onda usando el audio de referencia de las cámaras",
+      "B) Alinear a ojo los labios del orador",
+      "C) Regenerar el timecode VITC en postproducción",
+      "D) Usar Word Clock entre las cámaras ya grabadas"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Sin timecode común, la correlación de formas de onda (PluralEyes, sync de Premiere) alinea las pistas de forma automática y fiable."
+  },
+  {
+    "id": "preg-687",
+    "enunciado": "La voz de un orador presenta picos muy fuertes y valles casi inaudibles. ¿Qué procesador empareja esos niveles?",
+    "respuestas": [
+      "A) Un compresor (p. ej. ratio 4:1 con threshold adecuado)",
+      "B) Un noise gate",
+      "C) Un ecualizador gráfico",
+      "D) Un expansor"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "aplicacion",
+    "explicacion": "El compresor reduce la diferencia entre picos y valles: baja los picos y permite subir la ganancia general."
+  },
+  {
+    "id": "preg-688",
+    "enunciado": "El formato NTSC utiliza 29,97 fps con el sistema drop-frame.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-18",
+    "dificultad": "intermedio",
+    "tipo": "vf",
+    "explicacion": "Cierto: NTSC corre a 29,97fps y el drop-frame descarta números de timecode (no fotogramas) para cuadrar el reloj."
+  },
+  {
+    "id": "preg-689",
+    "enunciado": "El dBu es la unidad de nivel propia de los sistemas digitales y el dBFS la de los analógicos.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Falso: es al contrario. dBFS mide el nivel digital (respecto al máximo de escala) y dBu el nivel analógico."
+  },
+  {
+    "id": "preg-690",
+    "enunciado": "Mezclas el audio de un pleno: voz principal por cañón, sala con ruido de ventilación, y picos ocasionales cuando el presidente golpea la mesa. Diseña la cadena de procesado correcta:",
+    "respuestas": [
+      "A) Gate para el ruido de fondo → EQ para inteligibilidad → compresor para nivelar → limitador a -1dBTP en el master",
+      "B) Limitador primero, después gate y sin EQ",
+      "C) Solo subir el fader hasta que se oiga todo",
+      "D) Expansor en el master y compresor en la sala"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "avanzado",
+    "tipo": "caso",
+    "explicacion": "La cadena lógica procesa primero el ruido (gate), da inteligibilidad (EQ), controla dinámica (compresor) y protege el master con limitador true peak."
+  },
+  {
+    "id": "preg-691",
+    "enunciado": "¿Qué formato de exportación de gráficos conserva canal alpha para superponer sobre video?",
+    "respuestas": [
+      "A) ProRes 4444",
+      "B) H.264 High Profile",
+      "C) JPEG",
+      "D) MP3"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "ProRes 4444, DNxHD 444, Apple Animation o secuencias PNG conservan canal alpha (transparencia) para titulación y grafismo."
+  },
+  {
+    "id": "preg-692",
+    "enunciado": "¿Qué scope utilizas para evaluar la saturación y el matiz del color de una imagen?",
+    "respuestas": [
+      "A) El vectorscopio",
+      "B) El waveform de luma",
+      "C) El histograma",
+      "D) El medidor de LUFS"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "El vectorscopio representa saturación (distancia al centro) y matiz (ángulo); el waveform mide la luminancia."
+  },
+  {
+    "id": "preg-693",
+    "enunciado": "¿Qué diferencia hay entre corrección de color y gradación (grading)?",
+    "respuestas": [
+      "A) La corrección busca neutralidad técnica (balance, exposición); la gradación aplica un look creativo",
+      "B) Son sinónimos exactos",
+      "C) La gradación se hace antes que la corrección",
+      "D) La corrección usa LUTs creativas y la gradación técnicas"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Primero se corrige (neutralidad técnica) y después se gradúa (estética); las LUTs pueden ser técnicas (transformación de espacio) o creativas (look)."
+  },
+  {
+    "id": "preg-694",
+    "enunciado": "¿Por qué el fondo de un chroma key debe iluminarse de manera uniforme y con el sujeto separado a cierta distancia?",
+    "respuestas": [
+      "A) Para facilitar el recorte limpio del color y evitar el spill verde sobre el sujeto",
+      "B) Para que el fondo salga enfocado",
+      "C) Para aumentar la resolución del sensor",
+      "D) Para poder usar cualquier codec de distribución"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "La uniformidad (unos 2 stops bajo la clave) permite un keying limpio y la distancia evita que el verde rebote (spill) en el sujeto."
+  },
+  {
+    "id": "preg-695",
+    "enunciado": "Debes insertar un rótulo animado que siga el movimiento de un edificio grabado con cámara en mano. ¿Qué técnica de postproducción aplicas?",
+    "respuestas": [
+      "A) Tracking (seguimiento de puntos o planar) para fijar el rótulo al movimiento",
+      "B) Chroma key sobre el edificio",
+      "C) Rotoscopia del cielo",
+      "D) Un LUT creativo"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-19",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "El tracking (2D, planar o camera tracking) captura el movimiento del plano para que los elementos insertados lo sigan."
+  },
+  {
+    "id": "preg-696",
+    "enunciado": "Los estándares HDR de transferencia son PQ (ST.2084) y HLG (Hybrid Log-Gamma).",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-19",
+    "dificultad": "avanzado",
+    "tipo": "vf",
+    "explicacion": "Cierto: PQ (Perceptual Quantizer, SMPTE ST.2084) y HLG (ARIB STD-B67) son las dos curvas HDR; el SDR se referencia a 100 nits."
+  },
+  {
+    "id": "preg-697",
+    "enunciado": "¿Qué tecnología de proyección se basa en los microespejos DMD de Texas Instruments?",
+    "respuestas": [
+      "A) DLP",
+      "B) LCD",
+      "C) LCoS",
+      "D) CRT"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El DLP (Digital Light Processing) usa el chip DMD de microespejos; LCoS es reflectiva de cristal líquido sobre silicio (Sony SXRD, JVC D-ILA)."
+  },
+  {
+    "id": "preg-698",
+    "enunciado": "¿Qué clase de amplificador destaca por su eficiencia y bajo peso gracias a la conmutación digital?",
+    "respuestas": [
+      "A) Clase D",
+      "B) Clase A",
+      "C) Clase B",
+      "D) Clase AB"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La Clase D conmuta digitalmente con alta eficiencia; la Clase A es la más fiel pero muy ineficiente, y la AB el compromiso clásico."
+  },
+  {
+    "id": "preg-699",
+    "enunciado": "¿Qué define el throw ratio de un proyector?",
+    "respuestas": [
+      "A) La relación entre la distancia de proyección y el ancho de la imagen",
+      "B) La relación de contraste nativo",
+      "C) Los lúmenes ANSI por vatio",
+      "D) La vida útil de la lámpara"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Throw ratio = distancia/ancho de imagen; las lentes UST (ultra-short throw) permiten proyectar a muy poca distancia."
+  },
+  {
+    "id": "preg-700",
+    "enunciado": "¿Qué ventaja operativa aporta una fuente de luz láser frente a la lámpara tradicional en proyección?",
+    "respuestas": [
+      "A) Vida útil de 20.000+ horas con brillo constante y mantenimiento mínimo",
+      "B) Mayor consumo que garantiza más brillo",
+      "C) Necesidad de cambiar lámpara cada 500 horas",
+      "D) Funcionamiento sin electricidad"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Los proyectores láser (RGB o láser-fósforo) ofrecen 20.000+ horas, brillo estable y apenas mantenimiento."
+  },
+  {
+    "id": "preg-701",
+    "enunciado": "Para llevar audio multicanal por la red Ethernet del edificio a distintas salas, ¿qué protocolo profesional eliges?",
+    "respuestas": [
+      "A) Dante (audio IP, hasta 512x512 canales)",
+      "B) HDMI directo de 100 metros",
+      "C) Cable de micrófono XLR por planta",
+      "D) Bluetooth multipunto"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Dante transporta audio sobre Ethernet estándar con latencia configurable (0,25-5ms), ideal para distribución multicanal en edificios."
+  },
+  {
+    "id": "preg-702",
+    "enunciado": "Debes proyectar en el salón de actos (auditorio mediano) con luz ambiental moderada. ¿Qué rango de luminosidad es el adecuado?",
+    "respuestas": [
+      "A) 6.000-10.000 lúmenes ANSI",
+      "B) 500-1.000 lúmenes ANSI",
+      "C) 40.000-60.000 lúmenes ANSI",
+      "D) La luminosidad no influye en la elección"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-20",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "Para auditorios se recomiendan 6.000-10.000 lm; las salas pequeñas van con 3.000-5.000 lm y el mapping de gran formato con 20.000-60.000 lm."
+  },
+  {
+    "id": "preg-703",
+    "enunciado": "HDBaseT permite extender HDMI, Ethernet, control y alimentación por un único cable CAT5e/CAT6 hasta unos 100 metros.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "V",
+    "tema_id": "tema-20",
+    "dificultad": "intermedio",
+    "tipo": "vf",
+    "explicacion": "Cierto: HDBaseT es la extensión estándar de señales AV sobre par trenzado hasta 100m, incluyendo PoE."
+  },
+  {
+    "id": "preg-704",
+    "enunciado": "¿Qué codec de video se desarrolló libre de regalías por la AOMedia y mejora en torno a un 30% la eficiencia de HEVC?",
+    "respuestas": [
+      "A) AV1",
+      "B) H.264/AVC",
+      "C) ProRes",
+      "D) DNxHD"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-22",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "AV1, de la Alliance for Open Media, es libre de regalías y ~30% más eficiente que HEVC; lo adoptan YouTube y Netflix."
+  },
+  {
+    "id": "preg-705",
+    "enunciado": "¿Cuál es la configuración PCM estándar del audio broadcast?",
+    "respuestas": [
+      "A) 48 kHz / 24 bit",
+      "B) 44,1 kHz / 16 bit",
+      "C) 22 kHz / 8 bit",
+      "D) 96 kHz / 32 bit siempre"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-22",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El estándar broadcast es 48kHz/24bit; el CD musical usa 44,1kHz/16bit."
+  },
+  {
+    "id": "preg-706",
+    "enunciado": "¿Por qué los codecs intraframe (ProRes, DNxHD) son preferibles para edición y los interframe (H.264/H.265) para distribución?",
+    "respuestas": [
+      "A) El intraframe codifica cada fotograma completo (acceso y corte instantáneos); el interframe comprime referenciando otros fotogramas y logra archivos mucho menores",
+      "B) El intraframe siempre pesa menos",
+      "C) El interframe no puede reproducirse en streaming",
+      "D) No hay diferencia técnica entre ambos"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-22",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "La independencia de cada frame agiliza la edición; la predicción entre frames (GOP) maximiza la compresión para distribuir."
+  },
+  {
+    "id": "preg-707",
+    "enunciado": "¿Qué formato de imagen es el estándar en VFX y CGI por su profundidad de 16/32 bits en coma flotante y múltiples canales?",
+    "respuestas": [
+      "A) OpenEXR",
+      "B) JPEG",
+      "C) PNG de 8 bits",
+      "D) BMP"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-22",
+    "dificultad": "avanzado",
+    "tipo": "comprension",
+    "explicacion": "OpenEXR soporta float de 16/32 bits y canales múltiples (AOVs), siendo el estándar de intercambio en VFX."
+  },
+  {
+    "id": "preg-708",
+    "enunciado": "Debes archivar las grabaciones master de los plenos con máxima calidad de audio sin ocupar el espacio del PCM. ¿Qué formato eliges?",
+    "respuestas": [
+      "A) FLAC (compresión sin pérdida, 50-60% del tamaño del PCM)",
+      "B) AAC-LC a 128 kbps",
+      "C) MP3 a 320 kbps",
+      "D) WAV a 22 kHz/8 bit"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-22",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "FLAC comprime sin pérdida alguna reduciendo el archivo a la mitad aproximadamente; AAC y MP3 son formatos con pérdida."
+  },
+  {
+    "id": "preg-709",
+    "enunciado": "El formato JPEG es adecuado para masters de imagen que van a editarse repetidamente.",
+    "respuestas": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuesta_correcta": "F",
+    "tema_id": "tema-22",
+    "dificultad": "basico",
+    "tipo": "vf",
+    "explicacion": "Falso: JPEG comprime con pérdida y a 8 bits; cada reedición degrada la imagen. Para edición se usan TIFF, PNG 16-bit o RAW."
+  },
+  {
+    "id": "preg-710",
+    "enunciado": "¿Cuánto duran los derechos patrimoniales de autor en España tras el fallecimiento del autor?",
+    "respuestas": [
+      "A) 70 años post mortem",
+      "B) 20 años post mortem",
+      "C) 10 años renovables",
+      "D) Son perpetuos"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-24",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "La LPI (RDL 1/1996) fija la duración en la vida del autor más 70 años post mortem auctoris."
+  },
+  {
+    "id": "preg-711",
+    "enunciado": "¿Qué caracteriza a los derechos morales del autor frente a los patrimoniales?",
+    "respuestas": [
+      "A) Son irrenunciables e inalienables, e incluyen la paternidad y la integridad de la obra",
+      "B) Pueden venderse libremente a terceros",
+      "C) Duran 10 años renovables",
+      "D) Solo protegen obras musicales"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-24",
+    "dificultad": "intermedio",
+    "tipo": "comprension",
+    "explicacion": "Los morales (paternidad, integridad) no se pueden ceder ni renunciar; los patrimoniales (reproducción, distribución, comunicación pública, transformación) sí se explotan económicamente."
+  },
+  {
+    "id": "preg-712",
+    "enunciado": "Quieres usar en un vídeo institucional una música publicada bajo licencia CC BY-NC. ¿Puedes hacerlo?",
+    "respuestas": [
+      "A) Solo si el uso no es comercial y se atribuye la autoría; en un uso comercial se necesitaría otra licencia",
+      "B) Sí, sin ninguna condición",
+      "C) No, las licencias CC prohíben todo uso público",
+      "D) Sí, siempre que se modifique la obra"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-24",
+    "dificultad": "intermedio",
+    "tipo": "aplicacion",
+    "explicacion": "CC BY-NC exige atribución y prohíbe usos comerciales; habría que valorar la naturaleza del uso o pedir licencia adicional al autor."
+  },
+  {
+    "id": "preg-713",
+    "enunciado": "¿Qué conector profesional balanceado de tres pines es el estándar para señal de micrófono?",
+    "respuestas": [
+      "A) XLR",
+      "B) RCA",
+      "C) Jack TS de 6,3 mm sin balancear",
+      "D) HDMI"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-15",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "El XLR de 3 pines transporta señal balanceada de micrófono (y la alimentación phantom); RCA y jack TS son conexiones no balanceadas."
+  },
+  {
+    "id": "preg-714",
+    "enunciado": "En Adobe Premiere Pro, ¿con qué aplicaciones del mismo ecosistema se integra de forma nativa para grafismo y audio?",
+    "respuestas": [
+      "A) After Effects y Audition",
+      "B) Fusion y Fairlight",
+      "C) Motion y Logic",
+      "D) Nuke y Pro Tools"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Premiere se integra con After Effects (grafismo/composición) y Audition (audio); Fusion y Fairlight son las páginas de DaVinci Resolve."
+  },
+  {
+    "id": "preg-715",
+    "enunciado": "¿Qué espacio de color corresponde a la proyección de cine digital?",
+    "respuestas": [
+      "A) DCI-P3",
+      "B) Rec. 709",
+      "C) sRGB",
+      "D) CMYK"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-17",
+    "dificultad": "intermedio",
+    "tipo": "memoristica",
+    "explicacion": "DCI-P3 es el espacio del cine digital; Rec. 709 es HD broadcast y Rec. 2020 UHD/HDR."
+  },
+  {
+    "id": "preg-716",
+    "enunciado": "¿Qué banda de frecuencias aporta el 'aire' o cristalinidad a una mezcla?",
+    "respuestas": [
+      "A) 6-20 kHz (agudos)",
+      "B) 20-60 Hz (subgraves)",
+      "C) 250-500 Hz",
+      "D) 500 Hz-2 kHz"
+    ],
+    "respuesta_correcta": "A",
+    "tema_id": "tema-18",
+    "dificultad": "basico",
+    "tipo": "memoristica",
+    "explicacion": "Los agudos (6-20kHz) dan aire y cristalinidad; los subgraves potencia, y los medios presencia e inteligibilidad."
   }
 ]
