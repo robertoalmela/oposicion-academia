@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import preguntasData from "@/data/preguntas.json";
 import temarioData from "@/data/temario.json";
 import { PreguntaJSON, SimulacroResult, Tema } from "@/lib/types";
-import { getProgreso, saveSimulacroResult } from "@/lib/storage";
+import { saveSimulacroResult } from "@/lib/storage";
+import { useProgreso } from "@/lib/useProgreso";
 import { respuestaCorrectaToIndex, stripOptionPrefix } from "@/lib/questions";
 
 const PREGUNTAS_SIMULACRO = 30;
@@ -67,8 +68,8 @@ function formatearFecha(ts: number): string {
 }
 
 export default function SimulacroPage() {
-  const [mounted, setMounted] = useState(false);
-  const [simulacros, setSimulacros] = useState<SimulacroResult[]>([]);
+  const progreso = useProgreso();
+  const simulacros = progreso ? progreso.simulacro_results : null;
   const [preguntasSimulacro, setPreguntasSimulacro] = useState<PreguntaJSON[]>([]);
   const [enCurso, setEnCurso] = useState(false);
   const [indice, setIndice] = useState(0);
@@ -77,10 +78,25 @@ export default function SimulacroPage() {
   const [tiempoRestante, setTiempoRestante] = useState(TIEMPO_MINUTOS * 60);
   const [finalizado, setFinalizado] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-    setSimulacros(getProgreso().simulacro_results);
-  }, []);
+  const finalizarSimulacro = useCallback((respuestasFinal: RespuestaSimulacro[]) => {
+    const aciertos = respuestasFinal.filter((r) => r.correcta).length;
+    const errores = respuestasFinal.filter((r) => !r.correcta && r.respuesta !== null).length;
+    const sinResponder = Math.max(0, preguntasSimulacro.length - respuestasFinal.length);
+    const puntuacion = Math.max(0, aciertos - errores * PENALIZACION_ERROR);
+    const result: SimulacroResult = {
+      total: preguntasSimulacro.length || PREGUNTAS_SIMULACRO,
+      aciertos,
+      errores,
+      sin_responder: sinResponder,
+      puntuacion: Math.round(puntuacion * 100) / 100,
+      tiempo_segundos: TIEMPO_MINUTOS * 60 - tiempoRestante,
+      fecha: Date.now(),
+      respuestas: respuestasFinal,
+    };
+    saveSimulacroResult(result);
+    setFinalizado(true);
+    setEnCurso(false);
+  }, [preguntasSimulacro.length, tiempoRestante]);
 
   useEffect(() => {
     if (!enCurso || finalizado) return;
@@ -95,7 +111,7 @@ export default function SimulacroPage() {
       });
     }, 1000);
     return () => clearInterval(interval);
-  }, [enCurso, finalizado, respondidas]);
+  }, [enCurso, finalizado, respondidas, finalizarSimulacro]);
 
   const resumen = useMemo(() => {
     const aciertos = respondidas.filter((r) => r.correcta).length;
@@ -113,27 +129,6 @@ export default function SimulacroPage() {
     setRespondidas([]);
     setTiempoRestante(TIEMPO_MINUTOS * 60);
     setFinalizado(false);
-  }
-
-  function finalizarSimulacro(respuestasFinal: RespuestaSimulacro[]) {
-    const aciertos = respuestasFinal.filter((r) => r.correcta).length;
-    const errores = respuestasFinal.filter((r) => !r.correcta && r.respuesta !== null).length;
-    const sinResponder = Math.max(0, preguntasSimulacro.length - respuestasFinal.length);
-    const puntuacion = Math.max(0, aciertos - errores * PENALIZACION_ERROR);
-    const result: SimulacroResult = {
-      total: preguntasSimulacro.length || PREGUNTAS_SIMULACRO,
-      aciertos,
-      errores,
-      sin_responder: sinResponder,
-      puntuacion: Math.round(puntuacion * 100) / 100,
-      tiempo_segundos: TIEMPO_MINUTOS * 60 - tiempoRestante,
-      fecha: Date.now(),
-      respuestas: respuestasFinal,
-    };
-    saveSimulacroResult(result);
-    setSimulacros(getProgreso().simulacro_results);
-    setFinalizado(true);
-    setEnCurso(false);
   }
 
   function handleResponder() {
@@ -156,7 +151,7 @@ export default function SimulacroPage() {
     }
   }
 
-  if (!mounted) {
+  if (simulacros === null) {
     return <div style={{ padding: "32px 0", color: "#8a8f98" }}>Cargando…</div>;
   }
 

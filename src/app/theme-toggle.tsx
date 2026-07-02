@@ -1,26 +1,38 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+// Store mínimo sobre la clase del <html>: el snapshot se lee del DOM y
+// toggle() notifica a los suscriptores tras mutarlo.
+const listeners = new Set<() => void>();
+
+function subscribeTheme(listener: () => void): () => void {
+  listeners.add(listener);
+  return () => {
+    listeners.delete(listener);
+  };
+}
+
+function getThemeSnapshot(): "dark" | "light" {
+  return document.documentElement.classList.contains("light") ? "light" : "dark";
+}
+
+function getServerTheme(): null {
+  return null;
+}
 
 export default function ThemeToggleButton() {
-  const [mounted, setMounted] = useState(false);
-  const [isDark, setIsDark] = useState(true);
-
-  useEffect(() => {
-    setMounted(true);
-    const t = document.documentElement.classList.contains("light") ? false : true;
-    setIsDark(t);
-  }, []);
+  const theme = useSyncExternalStore(subscribeTheme, getThemeSnapshot, getServerTheme);
 
   function toggle() {
-    const next = !isDark;
-    setIsDark(next);
-    document.documentElement.classList.remove(isDark ? "dark" : "light");
-    document.documentElement.classList.add(next ? "dark" : "light");
-    try { localStorage.setItem("theme", next ? "dark" : "light"); } catch {}
+    const next = theme === "dark" ? "light" : "dark";
+    document.documentElement.classList.remove("dark", "light");
+    document.documentElement.classList.add(next);
+    try { localStorage.setItem("theme", next); } catch {}
+    listeners.forEach((l) => l());
   }
 
-  if (!mounted) return <span style={{ width: 34, height: 34 }} />;
+  if (theme === null) return <span style={{ width: 34, height: 34 }} />;
 
   return (
     <button
@@ -40,7 +52,7 @@ export default function ThemeToggleButton() {
       }}
       aria-label="Cambiar modo"
     >
-      {isDark ? "☀️" : "🌙"}
+      {theme === "dark" ? "☀️" : "🌙"}
     </button>
   );
 }

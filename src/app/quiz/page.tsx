@@ -1,31 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import temario from "@/data/temario.json";
 import { Tema, QuizResult } from "@/lib/types";
-import { getProgreso } from "@/lib/storage";
+import { useProgreso } from "@/lib/useProgreso";
 
 const temas = temario as Tema[];
 const PREGUNTAS_POR_TEMA = 15;
 
 export default function QuizPage() {
-  const [mounted, setMounted] = useState(false);
-  const [quizResults, setQuizResults] = useState<QuizResult[]>([]);
-
-  useEffect(() => {
-    setMounted(true);
-    setQuizResults(getProgreso().quiz_results);
-  }, []);
+  const progreso = useProgreso();
+  const quizResults: QuizResult[] | null = progreso ? progreso.quiz_results : null;
 
   function getMejorPuntuacion(temaId: string): number | null {
-    const results = quizResults.filter((r) => r.tema_id === temaId);
+    const results = (quizResults ?? []).filter((r) => r.tema_id === temaId);
     if (results.length === 0) return null;
     const mejor = Math.max(...results.map((r) => r.aciertos));
     return Math.round((mejor / PREGUNTAS_POR_TEMA) * 100);
   }
 
-  if (!mounted) {
+  if (quizResults === null) {
     return (
       <div style={{ padding: "32px 0" }}>
         <h1

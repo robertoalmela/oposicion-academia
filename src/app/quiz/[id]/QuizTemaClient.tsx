@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import temario from "@/data/temario.json";
@@ -31,10 +31,12 @@ export default function QuizTemaClient() {
   const [finalizado, setFinalizado] = useState(false);
   const [questions, setQuestions] = useState(preguntasTema);
 
-  // Shuffle on mount
+  // El barajado debe ocurrir solo en cliente tras la hidratación: el HTML
+  // prerenderizado lleva el orden original y un shuffle en render lo rompería.
   useEffect(() => {
-    const shuffled = [...preguntasTema].sort(() => Math.random() - 0.5);
-    setQuestions(shuffled);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setQuestions([...preguntasTema].sort(() => Math.random() - 0.5));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [temaId]);
 
   if (!tema) {

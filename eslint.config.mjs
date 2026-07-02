@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Script generador CommonJS que se ejecuta con node, no forma parte de la app.
+    "generar_preguntas.js",
   ]),
 ]);
 

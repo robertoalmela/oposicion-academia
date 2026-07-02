@@ -2,6 +2,29 @@ import { Progreso, QuizResult, SimulacroResult } from "./types";
 
 const STORAGE_KEY = "oposicion_academia";
 
+// Store observable para useSyncExternalStore: snapshot cacheado + listeners.
+let snapshot: Progreso | null = null;
+const listeners = new Set<() => void>();
+
+function emitChange(): void {
+  snapshot = null;
+  listeners.forEach((l) => l());
+}
+
+export function subscribeProgreso(listener: () => void): () => void {
+  listeners.add(listener);
+  return () => {
+    listeners.delete(listener);
+  };
+}
+
+export function getProgresoSnapshot(): Progreso {
+  if (snapshot === null) {
+    snapshot = getProgreso();
+  }
+  return snapshot;
+}
+
 export function getProgreso(): Progreso {
   if (typeof window === "undefined") {
     return {
@@ -31,6 +54,7 @@ export function saveProgreso(p: Progreso): void {
   if (typeof window === "undefined") return;
   p.ultima_sesion = Date.now();
   localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+  emitChange();
 }
 
 export function markTemaEstudiado(temaId: string): Progreso {
@@ -74,6 +98,7 @@ export function saveSimulacroResult(result: SimulacroResult): Progreso {
 export function resetProgreso(): void {
   if (typeof window === "undefined") return;
   localStorage.removeItem(STORAGE_KEY);
+  emitChange();
 }
 
 export function getTemaProgreso(temaId: string, totalPreguntas: number): number {

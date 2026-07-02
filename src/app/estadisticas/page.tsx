@@ -1,21 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import temario from "@/data/temario.json";
-import { Tema, Progreso, SimulacroResult } from "@/lib/types";
-import { getProgreso, resetProgreso } from "@/lib/storage";
+import { Tema, SimulacroResult } from "@/lib/types";
+import { resetProgreso } from "@/lib/storage";
+import { useProgreso } from "@/lib/useProgreso";
 
 const temas = temario as Tema[];
 
 export default function EstadisticasPage() {
-  const [mounted, setMounted] = useState(false);
-  const [progreso, setProgreso] = useState<Progreso | null>(null);
+  const progreso = useProgreso();
   const [confirmarReset, setConfirmarReset] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    setProgreso(getProgreso());
-  }, []);
 
   function handleReset() {
     if (!confirmarReset) {
@@ -23,11 +18,10 @@ export default function EstadisticasPage() {
       return;
     }
     resetProgreso();
-    setProgreso(getProgreso());
     setConfirmarReset(false);
   }
 
-  if (!mounted || !progreso) {
+  if (!progreso) {
     return (
       <div style={{ padding: "32px 0" }}>
         <h1 style={{ fontSize: 28, fontWeight: 510, color: "#f7f8f8", marginBottom: 8 }}>

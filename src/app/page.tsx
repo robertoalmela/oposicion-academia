@@ -1,24 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
-import { getProgreso, getTemaProgreso } from "@/lib/storage";
+import { useProgreso } from "@/lib/useProgreso";
 import temario from "@/data/temario.json";
-import { Tema, Progreso } from "@/lib/types";
+import { Tema } from "@/lib/types";
 
 const temas = temario as Tema[];
 const TOTAL_TEMAS = 24;
 
 export default function HomePage() {
-  const [progreso, setProgreso] = useState<Progreso | null>(null);
-  const [mounted, setMounted] = useState(false);
+  const progreso = useProgreso();
 
-  useEffect(() => {
-    setMounted(true);
-    setProgreso(getProgreso());
-  }, []);
-
-  if (!mounted || !progreso) {
+  if (!progreso) {
     return (
       <div style={{ padding: "40px 0" }}>
         <h1
