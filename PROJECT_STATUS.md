@@ -55,7 +55,7 @@ curl -fsS https://vps.173.249.46.245.sslip.io/oposiciones/audiovisuales/quiz/ >/
 
 ## Última actualización IA
 
-- Fecha: `2026-07-13T10:49:00+00:00`
-- Resumen: Desplegada academia audiovisual en VPS bajo /oposiciones/audiovisuales con basePath y trailingSlash
-- Verificación: npm run lint; PAGES_BASE_PATH=/oposiciones/audiovisuales npm run build; URLs públicas home/temario/quiz/simulacro/estadísticas 200; Playwright sin warnings
+- Fecha: `2026-07-13T11:06:30+00:00`
+- Resumen: Corregida legibilidad de la landing de OpoAcademia: tema oscuro por defecto, variables CSS seguras antes de hidratación y tokens de color en la home
+- Verificación: npm run lint; PAGES_BASE_PATH=/oposiciones/audiovisuales npm run build; deploy rsync a VPS; HTTP 200; Playwright dark/light con contrastes AA y consola sin errores
 

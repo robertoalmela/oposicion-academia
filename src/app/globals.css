@@ -3,22 +3,43 @@
 :root {
   --font-family: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  /* Safe default: the app is designed dark-first. Without these defaults,
+     the server-rendered page could briefly render white-on-white before
+     the theme class is hydrated. */
+  --bg: #08090a;
+  --bg-elevated: #0f1011;
+  --bg-header: #0f1011;
+  --bg-card: rgba(255, 255, 255, 0.035);
+  --bg-card-strong: #111317;
+  --border: rgba(255, 255, 255, 0.1);
+  --fg: #f7f8f8;
+  --text-primary: #f7f8f8;
+  --text-secondary: #d0d6e0;
+  --fg-muted: #a0a6b2;
+  --fg-secondary: #d0d6e0;
+  --fg-tertiary: #8a8f98;
+  --accent: #7c86ff;
+  --accent-hover: #a5adff;
+  --success: #10b981;
+  --error: #ef4444;
+  --warning: #f59e0b;
 }
 
 html.dark {
   --bg: #08090a;
   --bg-elevated: #0f1011;
   --bg-header: #0f1011;
-  --bg-card: rgba(255, 255, 255, 0.02);
-  --border: rgba(255, 255, 255, 0.08);
+  --bg-card: rgba(255, 255, 255, 0.035);
+  --bg-card-strong: #111317;
+  --border: rgba(255, 255, 255, 0.1);
   --fg: #f7f8f8;
   --text-primary: #f7f8f8;
   --text-secondary: #d0d6e0;
-  --fg-muted: #8a8f98;
+  --fg-muted: #a0a6b2;
   --fg-secondary: #d0d6e0;
-  --fg-tertiary: #62666d;
-  --accent: #5e6ad2;
-  --accent-hover: #828fff;
+  --fg-tertiary: #8a8f98;
+  --accent: #7c86ff;
+  --accent-hover: #a5adff;
   --success: #10b981;
   --error: #ef4444;
   --warning: #f59e0b;
@@ -28,8 +49,9 @@ html.light {
   --bg: #fafafa;
   --bg-elevated: #ffffff;
   --bg-header: #ffffff;
-  --bg-card: rgba(0, 0, 0, 0.02);
-  --border: rgba(0, 0, 0, 0.08);
+  --bg-card: rgba(0, 0, 0, 0.035);
+  --bg-card-strong: #ffffff;
+  --border: rgba(0, 0, 0, 0.12);
   --fg: #161616;
   --text-primary: #161616;
   --text-secondary: #3a3a3a;
@@ -51,6 +73,7 @@ html.light {
 
 html,
 body {
+  min-height: 100%;
   font-family: var(--font-family);
   background: var(--bg);
   color: var(--fg);

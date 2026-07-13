@@ -1,10 +1,15 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 
 // Store mínimo sobre la clase del <html>: el snapshot se lee del DOM y
 // toggle() notifica a los suscriptores tras mutarlo.
 const listeners = new Set<() => void>();
+
+function applyTheme(theme: "dark" | "light") {
+  document.documentElement.classList.remove("dark", "light");
+  document.documentElement.classList.add(theme);
+}
 
 function subscribeTheme(listener: () => void): () => void {
   listeners.add(listener);
@@ -24,10 +29,19 @@ function getServerTheme(): null {
 export default function ThemeToggleButton() {
   const theme = useSyncExternalStore(subscribeTheme, getThemeSnapshot, getServerTheme);
 
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem("theme");
+      applyTheme(stored === "light" ? "light" : "dark");
+    } catch {
+      applyTheme("dark");
+    }
+    listeners.forEach((l) => l());
+  }, []);
+
   function toggle() {
     const next = theme === "dark" ? "light" : "dark";
-    document.documentElement.classList.remove("dark", "light");
-    document.documentElement.classList.add(next);
+    applyTheme(next);
     try { localStorage.setItem("theme", next); } catch {}
     listeners.forEach((l) => l());
   }

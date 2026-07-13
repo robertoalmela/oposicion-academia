@@ -5,6 +5,17 @@ Bitácora de trabajo de agentes IA. Añadir entradas arriba, bajo "Últimas entr
 ## Últimas entradas
 
 <!-- AI_WORKLOG:START -->
+### 2026-07-13T11:06:30+00:00 — IA
+
+- Resumen: Corregida legibilidad de la landing de OpoAcademia: tema oscuro por defecto, variables CSS seguras antes de hidratación y tokens de color en la home
+- Verificación: npm run lint; PAGES_BASE_PATH=/oposiciones/audiovisuales npm run build; deploy rsync a VPS; HTTP 200; Playwright dark/light con contrastes AA y consola sin errores
+- Siguiente paso: no indicado
+- Cambios detectados:
+  - `M src/app/globals.css`
+  - ` M src/app/layout.tsx`
+  - ` M src/app/page.tsx`
+  - ` M src/app/theme-toggle.tsx`
+
 ### 2026-07-13T10:49:00+00:00 — IA
 
 - Resumen: Desplegada academia audiovisual en VPS bajo /oposiciones/audiovisuales con basePath y trailingSlash

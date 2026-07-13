@@ -18,16 +18,16 @@ export default function HomePage() {
           style={{
             fontSize: 32,
             fontWeight: 510,
-            color: "#f7f8f8",
+            color: "var(--text-primary)",
             marginBottom: 8,
           }}
         >
           OpoAcademia
         </h1>
-        <p style={{ fontSize: 15, color: "#8a8f98", marginBottom: 40 }}>
+        <p style={{ fontSize: 15, color: "var(--fg-muted)", marginBottom: 40 }}>
           Técnico Auxiliar de Audiovisuales - Diputación de Valencia
         </p>
-        <div style={{ color: "#62666d" }}>Cargando progreso…</div>
+        <div style={{ color: "var(--fg-tertiary)" }}>Cargando progreso…</div>
       </div>
     );
   }
@@ -55,13 +55,13 @@ export default function HomePage() {
           style={{
             fontSize: 32,
             fontWeight: 510,
-            color: "#f7f8f8",
+            color: "var(--text-primary)",
             marginBottom: 8,
           }}
         >
           OpoAcademia
         </h1>
-        <p style={{ fontSize: 15, color: "#8a8f98" }}>
+        <p style={{ fontSize: 15, color: "var(--fg-muted)" }}>
           Técnico Auxiliar de Audiovisuales - Diputación de Valencia
         </p>
       </div>
@@ -106,8 +106,8 @@ export default function HomePage() {
         {/* Continuar estudiando */}
         <div
           style={{
-            background: "rgba(255,255,255,0.02)",
-            border: "1px solid rgba(255,255,255,0.08)",
+            background: "var(--bg-card)",
+            border: "1px solid var(--border)",
             borderRadius: 8,
             padding: 20,
           }}
@@ -116,14 +116,14 @@ export default function HomePage() {
             style={{
               fontSize: 15,
               fontWeight: 510,
-              color: "#f7f8f8",
+              color: "var(--text-primary)",
               marginBottom: 16,
             }}
           >
             Continuar estudiando
           </h2>
           {ultimosTemas.length === 0 ? (
-            <p style={{ color: "#62666d", fontSize: 14 }}>
+            <p style={{ color: "var(--fg-tertiary)", fontSize: 14 }}>
               Aún no has estudiado ningún tema. ¡Empieza por el temario!
             </p>
           ) : (
@@ -137,10 +137,10 @@ export default function HomePage() {
                     alignItems: "center",
                     justifyContent: "space-between",
                     padding: "12px 14px",
-                    background: "rgba(255,255,255,0.03)",
+                    background: "var(--bg-card-strong)",
                     borderRadius: 6,
                     textDecoration: "none",
-                    color: "#d0d6e0",
+                    color: "var(--text-secondary)",
                     fontSize: 14,
                     transition: "background 0.15s ease",
                   }}
@@ -148,7 +148,7 @@ export default function HomePage() {
                   <span>
                     Unidad {tema.unidad} · {tema.titulo}
                   </span>
-                  <span style={{ color: "#5e6ad2", fontSize: 13 }}>→</span>
+                  <span style={{ color: "var(--accent)", fontSize: 13 }}>→</span>
                 </Link>
               ))}
             </div>
@@ -158,8 +158,8 @@ export default function HomePage() {
         {/* Acceso rápido */}
         <div
           style={{
-            background: "rgba(255,255,255,0.02)",
-            border: "1px solid rgba(255,255,255,0.08)",
+            background: "var(--bg-card)",
+            border: "1px solid var(--border)",
             borderRadius: 8,
             padding: 20,
           }}
@@ -168,7 +168,7 @@ export default function HomePage() {
             style={{
               fontSize: 15,
               fontWeight: 510,
-              color: "#f7f8f8",
+              color: "var(--text-primary)",
               marginBottom: 16,
             }}
           >
@@ -186,9 +186,9 @@ export default function HomePage() {
       {/* Footer */}
       <footer
         style={{
-          borderTop: "1px solid rgba(255,255,255,0.05)",
+          borderTop: "1px solid var(--border)",
           paddingTop: 20,
-          color: "#62666d",
+          color: "var(--fg-tertiary)",
           fontSize: 13,
           textAlign: "center",
         }}
@@ -211,18 +211,18 @@ function SummaryCard({
   return (
     <div
       style={{
-        background: "rgba(255,255,255,0.02)",
-        border: "1px solid rgba(255,255,255,0.08)",
+        background: "var(--bg-card)",
+        border: "1px solid var(--border)",
         borderRadius: 8,
         padding: "20px",
       }}
     >
-      <p style={{ fontSize: 13, color: "#8a8f98", marginBottom: 8 }}>{title}</p>
+      <p style={{ fontSize: 13, color: "var(--fg-muted)", marginBottom: 8 }}>{title}</p>
       <p
         style={{
           fontSize: 24,
           fontWeight: 510,
-          color: "#f7f8f8",
+          color: "var(--text-primary)",
           marginBottom: progress !== undefined ? 10 : 0,
         }}
       >
@@ -232,7 +232,7 @@ function SummaryCard({
         <div
           style={{
             height: 4,
-            background: "rgba(255,255,255,0.05)",
+            background: "var(--border)",
             borderRadius: 2,
             overflow: "hidden",
           }}
@@ -241,7 +241,7 @@ function SummaryCard({
             style={{
               height: "100%",
               width: `${progress}%`,
-              background: "#5e6ad2",
+              background: "var(--accent)",
               borderRadius: 2,
               transition: "width 0.4s ease",
             }}
@@ -261,10 +261,10 @@ function QuickButton({ href, label }: { href: string; label: string }) {
         alignItems: "center",
         justifyContent: "center",
         padding: "14px 0",
-        background: "#191a1b",
-        border: "1px solid rgba(255,255,255,0.08)",
+        background: "var(--bg-card-strong)",
+        border: "1px solid var(--border)",
         borderRadius: 6,
-        color: "#d0d6e0",
+        color: "var(--text-secondary)",
         fontSize: 14,
         fontWeight: 510,
         textDecoration: "none",
